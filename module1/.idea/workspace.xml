@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3778aac3-b079-4338-998e-0760c28e34d3" name="Default Changelist" comment="" />
+    <list default="true" id="3778aac3-b079-4338-998e-0760c28e34d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Baitaptaodanhsach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tạo trang CV cá nhân.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitap1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hinhanh/google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hinhanh/hinh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1b6msPZq1iYLuoOpmi9vKhOnOJq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hinhanh" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\c0420g1 Nguyen Tien Quoc\module1\hinhanh" />
+      <recent name="D:\abc" />
+      <recent name="D:\c0420g1 Nguyen Tien Quoc\module1" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,10 +67,27 @@
       <updated>1587961125466</updated>
       <workItem from="1587961132509" duration="239000" />
       <workItem from="1587961391004" duration="675000" />
+      <workItem from="1588216623605" duration="37000" />
+      <workItem from="1588461561730" duration="2121000" />
+      <workItem from="1588566517528" duration="6269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="129" key="FileChooserDialogImpl" timestamp="1588577537042">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="129" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1588577537042" />
+    <state x="186" y="30" key="SettingsEditor" timestamp="1588577975222">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="186" y="30" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1588577975222" />
+    <state x="339" y="36" width="670" height="676" key="search.everywhere.popup" timestamp="1588578400176">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="36" width="670" height="676" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588578400176" />
   </component>
 </project>
