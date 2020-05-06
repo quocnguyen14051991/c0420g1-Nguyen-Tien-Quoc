@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formcss</title>
+</head>
+<style>
+    *
+    {
+        box-sizing: border-box;
+
+    }
+    body
+    {
+        background-color: white;
+    }
+    .content
+    {
+        background-color:#cccccc;
+        border-radius: 4px;
+        padding: 20px;
+    }
+    .colums25
+    {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+    .colums75
+    {
+        float: right;
+        width: 75%;
+        margin-top: 6px;
+    }
+    .rows:after
+    {
+        content: "";
+        clear: both;
+        display: table;
+
+    }
+    label
+    {
+        display: inline-block;
+        padding: 12px 12px 12px 0;
+
+    }
+    input,textarea,select
+    {
+        width: 100%;
+        padding: 12px;
+        resize:vertical;
+        border: 1px solid #ccc;
+    }
+    input[type="submits"]
+    {
+        color: white;
+        padding:12px 20px ;
+        float: right;
+        width: 30%;
+    }
+
+
+
+
+</style>
+<body>
+<div class="content">
+    <form action="index.html" method="post">
+        <div rows>
+            <div class="colums25">
+                <label for="name">Họ Và Tên</label>
+            </div>
+            <div class="colums75">
+                <input type="text" placeholder="Tên Của Bạn">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="colums25">
+                <label for="quocgia">Quốc Gia</label>
+            </div>
+            <div class="colums75">
+                <select name="luachon" id="luachon">
+                    <option value="viet nam">Viet Nam</option>
+                    <option value="Lào">Lào</option>
+                    <option value="Campuchia">Campuchia</option>
+                </select>
+            </div>
+        </div>
+        <div class="rows">
+            <div colums25>
+                <label for="gop y">Góp Ý</label>
+            </div>
+            <div colums75>
+                <textarea name="gopy" id="gopy" cols="30" rows="10" placeholder="viết gì đó"></textarea>
+            </div>
+        </div>
+        <div class="rows">
+            <input type="submit" value="Xác Nhận" />
+        </div>
+    </form>
+</div>
+</body>
+</html>

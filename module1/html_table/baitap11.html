@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitapform</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: aquamarine;
+        }
+        .content_form
+        {
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+        .rows_title
+        {
+            text-align: center;
+            background-color: #ff4c00;
+            color:  #ffefe9;
+        }
+        .col-25
+        {
+            float: left;
+            width: 20%;
+            text-align: right;
+            margin-top: 6px;
+            padding-right: 10px;
+            color: blue;
+        }
+        .col-75
+        {
+            float: right;
+            width: 80%;
+            margin-top: 6px;
+        }
+        .rows:after
+        {
+            clear: both;
+            display: table;
+            content: "";
+        }
+        input[type=submit]
+        {
+            background-color:  #dcd9d2;
+            border-bottom: 2px solid black;
+            cursor: pointer;
+        }
+        input[type=reset]
+        {
+            background-color:  #dcd9d2;
+            border-bottom: 2px solid black;
+            cursor: pointer;
+        }
+        input[type=text]
+        {
+            border-top: 2px solid black;
+            border-left: 2px solid black;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+        input[type=text]:focus
+        {
+            outline: none;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="content_form">
+    <form action="method.php" method="post">
+        <div class="rows_title">
+            <div class="col"><h1>SỞ THÍCH CỦA BẠN</h1></div>
+        </div>
+        <div class="rows">
+            <div class="col-25">
+                <label for="hoten">Ho Va Ten</label>
+            </div>
+            <div class="col-75">
+                <input type="text" style="width: 55%" >
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-25">
+                <label for="email"> Email</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="email" style="width: 40%" >
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-25">
+                <label for="sothich">So Thich</label>
+            </div>
+            <div class="col-75">
+                     <div class="col55" style="float: left;width: 30%">
+                        <input type="checkbox" name="thethao" value="thethao" id="thethao">
+                        <label for="thethaox" style="color: #ff4c00"> Thể Thao</label> <br>
+                        <input type="checkbox" name="luotweb" value="luotweb">
+                        <label for="amnhac" style="color: #ff4c00">Lướt Web</label> <br>
+                        <input type="checkbox" name="dulich" value="dulich"   id="dulich">
+                        <label for="dulich" style="color: #ff4c00">Du Lịch</label> <br>
+                    </div>
+                    <div class="col56" style="float: left;width: 30%">
+                        <input type="checkbox" name="amnhac" value="amnhac" id="amnhac">
+                        <label for="amnhac" style="color: #ff4c00"> Âm nhạc</label> <br>
+                        <input type="checkbox" name="choigame" value="choigame">
+                        <label for="choigame" style="color: #ff4c00">Chơi Game</label> <br>
+                    </div>
+                <div class="col56" style="float: left;width: 30%">
+                        <input type="checkbox" name="docsach" value="docsach" id="docsach">
+                        <label for="docsach" style="color: #ff4c00"> Đọc Sách</label> <br>
+                        <input type="checkbox" name="dienanh" value="dienanh">
+                        <label for="dienanh" style="color: #ff4c00">Điện Ảnh</label> <br>
+                </div>
+            </div>
+            <div class="rows">
+            <div class="col-25">
+            </div>
+                <div class="col-75">
+                    <input type="submit" value="Gui Thong tin">
+                    <input type="reset" value="Nhap Lai">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

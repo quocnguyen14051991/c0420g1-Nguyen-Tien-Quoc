@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baitapform1</title>
+    <style>
+
+        input[type=text]
+        {
+            position: center;
+            width: 80%;
+            padding: 12px 20px 40px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border:none;
+            border-bottom: 2px solid darkorange;
+            border-radius: 10px;
+            color: brown;
+            outline: none;
+            /*-webkit-transition: 2s;*/
+            /*transition:2s;*/
+            background-image: url(../hinhanh/hinh.jpg);
+            background-position: 3px 3px;
+            background-repeat: no-repeat;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+            -webkit-transition: background-color 0.5s;
+            transition: background-color 0.5s;
+            
+        }
+        input[type=text]:focus
+        {
+            /*background-color: red;*/
+            border: 3px black solid;
+            width: 100%;
+            background-color: red;
+
+        }
+        form
+        {
+            margin: 30%;
+            background-color: aquamarine;
+        }
+        label
+        {
+
+            padding: 5px;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+        label.fname1
+        {
+            margin-top: 5px;
+        }
+        textarea
+        {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            background-color: black;
+            color: darkorange;
+            /*resize: none;*/
+            resize: vertical;
+            position: center;
+            margin: 5px;
+            font-size: 30px;
+        }
+        select
+        {
+            position: center;
+            width: 100%;
+            margin-left: 50px;
+
+            margin-right: 50px;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        input[type=submit]
+        {
+            width: 100%;
+            height: 50px;
+            margin-left: 50px;
+            cursor: cell;
+            text-decoration: red;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<form id="formnhap">
+    <label for="fname" class="fname1">Ho Tên</label> <br>
+    <input type="text" id="fname" name="fname"> <br>
+    <label for="lname">Họ và tên</label> <br>
+    <input type="text" id="lname" name="lname"> <br>
+    <textarea name="vietgido" id="quoc" cols="30" rows="10" placeholder="viet gi do o day di"></textarea>
+    <select name="seclect" id="select1">
+        <option value="hihi">hihi</option>
+        <option value="hihi">hihi</option>
+        <option value="hihi">hihi</option>
+    </select>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>

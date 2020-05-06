@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        input,textarea,select
+        {
+            width: 100%;
+            padding: 12px   ;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        label
+        {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+            color: red;
+        }
+        input[type=submit]
+        {
+            background-color: #58257b;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+
+        }
+        input[type=submit]:hover
+        {
+            background-color: #45a049;
+        }
+        .content
+        {
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        .col25
+        {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+        .col75
+        {
+            float: right;
+            width: 75%;
+            margin-top: 6px;
+
+        }
+        .row:after
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 600px) {
+            .col25,col75,input[type=submit]
+            {
+                width: 100%;
+                margin-top: 0px;
+            }
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>formkieumau</title>
+</head>
+<body>
+<div class="content">
+    <form action="google.com" method="post">
+        <div class="row">
+            <div class="col25">
+                <label for="hoten" >Họ Và Tên</label>
+            </div>
+            <div class="col75">
+                <input type="text" name="first_name" id="fname" placeholder="Tên Của Bạn">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col25">
+                <label for="contruy">Quốc Gia</label>
+            </div>
+            <div class="col75">
+                <select name="contruy" id="contruy">
+                    <option value="Viet Nam">Viet Nam</option>
+                    <option value="Lào">Laos</option>
+                    <option value="Cambodia">Cambodia</option>
+                </select>
+            </div>
+        </div>
+         <div class="row">
+             <div class=" col25">
+                 <label for="gopy" >Góp Ý</label>
+             </div>
+             <div class="col75>">
+                 <textarea name="subject" id="subject" cols="30" rows="10" placeholder="gop y o day"> </textarea>
+             </div>
+         </div>
+          <div class="row">>
+              <input type="submit" value="Xac Nhan">
+          </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hhml</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-color: white;
+            padding: 6px;
+        }
+        .content_formx
+        {
+            background-color: #fffda9;
+            border-radius: 4px;
+        }
+        label
+        {
+            color: blue;
+        }
+        .rows_header
+        {
+            color: blue;
+            background-color: #d4fdd6;
+        }
+      .rows:after
+      {
+          clear: both;
+          display: table;
+          content: "";
+      }
+        .col-20
+        {
+            float: left;
+            width: 20%;
+            margin-top: 6px;
+            padding-left: 10px;
+
+        }
+        .rows80
+        {
+            float: left;
+            height: 80%;
+            margin-top: 6px;
+        }
+        textarea
+        {
+            resize: horizontal;
+            width: 80%;
+            height: 50px;
+            border-top: 2px solid;
+            border-left: 2px solid;
+        }
+        input[type=text]
+        {
+            padding: 6px;
+            border-top: 2px solid;
+            border-left: 2px solid;
+        }
+        select
+        {
+            border-top: 2px solid;
+            border-left: 2px solid;
+        }
+        input[type=submit]
+        {
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            height: 40px;
+        }
+        input[type=reset]
+        {
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="content_formx">
+    <form action="php.html">
+        <div class="rows_header">
+            <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="hoten">Họ Và Tên</label>
+            </div>
+            <div class="rows80">
+                <input type="text" style="width: 400px">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="ngaysinh">Ngày Sinh</label>
+            </div>
+            <div class="rows80">
+                <input type="text" style="250px">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="gioitinh">Giới Tính</label>
+            </div>
+            <div class="rows80">
+                <input type="radio"> <label for="nam" style="color: black"> Nam</label>
+                <input type="radio"> <label for="nu" style="color: black"> Nữ</label>
+
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="diachi">Địa Chỉ</label>
+            </div>
+            <div class="rows80">
+                <textarea name="textoday" id="diachi" cols="30" rows="10" style="width: 350px" ></textarea>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="lop">Lớp</label>
+            </div>
+            <div class="rows80">
+                <select name="chonlop" id="chonlop" >
+                    <option value="lop1">-Chọn Lớp-</option>
+                    <option value="lop2">-Chọn Lớp-</option>
+                    <option value="lop3">-Chọn Lớp-</option>
+                </select>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="Email">Email</label>
+            </div>
+            <div class="rows80">
+                <input type="text" style="width:240px">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+                <label for="dienthoai">Điện Thoại</label>
+            </div>
+            <div class="rows80">
+                <input type="text" style="width:240px ">
+            </div>
+        </div>
+        <div class="rows">
+            <div class="col-20">
+
+            </div>
+            <div class="rows80">
+                <input type="submit" value="Đăng ký" style="width: 120px">
+                <input type="reset" value="Nhập Lại" style="width:120px;margin-left: 0px">
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
