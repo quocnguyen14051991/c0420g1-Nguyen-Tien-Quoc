@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss</title>
+    <script>
+        let a=1;
+        alert(c)
+        // function tinhtien()
+        // {
+            //2=="2"
+            // alert(2=="2") // 1 loi
+
+
+
+            // var nhaptien1 = (document.getElementById('input').value);
+            // // alert((typeof nhaptien))
+            // var nhaptien = parseInt(document.getElementById('input').value)
+            // let tinh;
+            // alert(typeof nhaptien1)
+            //
+            //
+            //     if((document.getElementById('choose').value=="VietNam") && ((document.getElementById('contruy').value)=="Usa"))
+            //     {
+            //          tinh=nhaptien/23000;
+            //     }
+            //     else if ((document.getElementById('choose').value=="Usa") && ((document.getElementById('contruy').value)=="VietNam"))
+            //     {
+            //          tinh=nhaptien*23000
+            //     }
+            //     else
+            //     {
+            //         alert("khong co gi de chuyen")
+            //     }
+            //
+            // return document.getElementById('result').innerText=tinh;      }
+    </script>
+    <style>
+        table,th,td
+        {
+            text-align: center;
+            /*width: 100%;*/
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        label
+        {
+            text-align: center;
+            font-size: 25px;
+            font-family: VnBahamasB;
+        }
+        input[type=button]
+        {
+            background-color: #58257b;
+            color: white;
+            font-size: 20px;
+        }
+        .content
+        {
+            width: 100%;
+            padding: 10%;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <table >
+        <form action="action.html">
+            <tr>
+                <th>
+                    Amount
+                </th>
+                <th>
+                    From Currency
+                </th>
+                <th>
+                    To Currency
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="input">
+                </td>
+                <td>
+                    <select name="choose" id="choose">
+                        <option id="viet1" value="VietNam"> VietNam
+                        </option>
+                        <option id="usa1" value="Usa"> Usa
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <select name="choosecountruy" id="contruy">
+                        <option id="viet" value="VietNam">
+                            VietNam
+                        </option>
+                        <option id="usa" value="Usa">
+                            Usa
+                        </option>
+                    </select>
+                </td>
+                <td>
+                    <input type="button" value="Convert" id="butontinh" onclick="tinhtien()" >
+                </td>
+            </tr>
+            <tr>
+                <label for="result" id="result"></label>
+            </tr>
+        </form>
+    </table>
+</div>
+</body>
+</html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>ss</title>-->
+<!--    <script>-->
+<!--        function tinhtien()-->
+<!--        {-->
+<!--            var nhaptien = parseInt(document.getElementById('input').value);-->
+<!--            let tinh;-->
+<!--            // alert((typeof  nhaptien) != 'number')-->
+<!--            //tai sao alert cua type of chi co 1 gia tri false-->
+<!--            let tienviet=document.getElementById('choose').value=="VietNam";-->
+<!--            let my=document.getElementById('contruy').value=="Usa";-->
+<!--            let tienmy=document.getElementById('choose').value=="Usa";-->
+<!--            let viet=document.getElementById('contruy').value=="VietNam";-->
+<!--            if((typeof nhaptien ) != 'number')-->
+<!--            {-->
+<!--                alert("Vui Long Nhap Lai")-->
+<!--            }-->
+
+<!--            else-->
+<!--            {-->
+<!--                if(tienviet && my)-->
+<!--                {-->
+<!--                    tinh=(nhaptien/23000) +" "  +"Usa";-->
+<!--                }-->
+<!--                else if (tienmy && viet)-->
+<!--                {-->
+<!--                    tinh=(nhaptien*23000) + " " + "Vnd"-->
+<!--                }-->
+<!--                else-->
+<!--                {-->
+<!--                    alert("khong co gi de chuyen")-->
+<!--                }-->
+<!--            }-->
+<!--            return document.getElementById('result').innerText=tinh ;      }-->
+<!--    </script>-->
+<!--    <style>-->
+<!--        table,th,td-->
+<!--        {-->
+<!--            text-align: center;-->
+<!--            /*width: 100%;*/-->
+<!--            padding-left: 10%;-->
+<!--            padding-right: 10%;-->
+<!--        }-->
+<!--        label-->
+<!--        {-->
+<!--            text-align: center;-->
+<!--            font-size: 25px;-->
+<!--            font-family: VnBahamasB;-->
+<!--            color: red;-->
+<!--            text-align: center;-->
+<!--        }-->
+<!--        input[type=button]-->
+<!--        {-->
+<!--            background-color: #58257b;-->
+<!--            color: white;-->
+<!--            font-size: 20px;-->
+<!--        }-->
+<!--        .content-->
+<!--        {-->
+<!--            width: 100%;-->
+<!--            padding: 10%;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="content">-->
+<!--    <table >-->
+<!--        <tr>-->
+<!--            <th>-->
+<!--                Amount-->
+<!--            </th>-->
+<!--            <th>-->
+<!--                From Currency-->
+<!--            </th>-->
+<!--            <th>-->
+<!--                To Currency-->
+<!--            </th>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                <input type="text" id="input">-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <select name="choose" id="choose">-->
+<!--                    <option id="viet1" value="VietNam"> VietNam-->
+<!--                    </option>-->
+<!--                    <option id="usa1" value="Usa"> Usa-->
+<!--                    </option>-->
+<!--                </select>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <select name="choosecountruy" id="contruy">-->
+<!--                    <option id="viet" value="VietNam">-->
+<!--                        VietNam-->
+<!--                    </option>-->
+<!--                    <option id="usa" value="Usa">-->
+<!--                        Usa-->
+<!--                    </option>-->
+<!--                </select>-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <input type="button" value="Convert" id="butontinh" onclick="tinhtien()" >-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td colspan="4">-->
+<!--                <label for="ketqua" id="ketqua">Result:</label>-->
+<!--                <label for="result" id="result"></label></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->

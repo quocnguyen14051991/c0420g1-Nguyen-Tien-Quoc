@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>maytinh1</title>
+    <script>
+        function tinhcong()
+        {
+            let tinh1=parseInt(document.getElementById('tinh1').value);
+            let tinh2=parseInt(document.getElementById('tinh2').value);
+            let kiemtra1=typeof tinh1;
+            let kiemtra2 = typeof tinh2;
+            if(kiemtra1 != 'number'|| kiemtra2!= 'number')
+            {
+                alert('vui long nhap so');
+            }
+            else
+            {
+                tinh=tinh1+tinh2;
+            }
+            return document.getElementById('ketqua').innerText=tinh;
+
+        }
+        function tinhtru() {
+            let tinh1=parseInt(document.getElementById('tinh1').value);
+            let tinh2=parseInt(document.getElementById('tinh2').value);
+            let kiemtra1=typeof tinh1;
+            let kiemtra2 = typeof tinh2;
+            if(kiemtra1 != 'number'|| kiemtra2!= 'number')
+            {
+                alert('vui long nhap so');
+            }
+            else
+            {
+                tinh=tinh1-tinh2;
+            }
+            return document.getElementById('ketqua').innerText=tinh;
+        }
+        function tinhnhan() {
+            let tinh1=parseInt(document.getElementById('tinh1').value);
+            let tinh2=parseInt(document.getElementById('tinh2').value);
+            let kiemtra1=typeof tinh1;
+            let kiemtra2 = typeof tinh2;
+            if(kiemtra1 != 'number' || kiemtra2 != 'number')
+            {
+                alert('vui long nhap so');
+            }
+            else
+            {
+                tinh=tinh1*tinh2;
+            }
+            return document.getElementById('ketqua').innerText=tinh;
+        }
+        function tinhchia() {
+            let tinh1=parseInt(document.getElementById('tinh1').value);
+            let tinh2=parseInt(document.getElementById('tinh2').value);
+            let kiemtra1=typeof tinh1;
+            let kiemtra2 = typeof tinh2;
+            if(kiemtra1 != 'number' || kiemtra2!= 'number')
+            {
+                alert('vui long nhap so');
+            }
+            else
+            {
+                tinh=tinh1/tinh2;
+            }
+            return document.getElementById('ketqua').innerText=tinh;
+        }
+    </script>
+</head>
+
+<body>
+<table>
+    <tr>
+        <th>Caculator</th>
+    </tr>
+  <tr>
+      <td>
+          <input type="text" id="tinh1">
+      </td>
+
+      <td>
+          <input type="text" id="tinh2">
+      </td>
+  </tr>
+    <tr>
+        <td>
+            <input type="button" id="cong" value="Addtion(+)" onclick="tinhcong()">
+        </td>
+        <td>
+            <input type="button" id="tru" value="Subtraction(-)"  onclick="tinhtru()">
+        </td>
+        <td>
+            <input type="button" id="nhan" value="Multipication(X)"  onclick="tinhnhan()">
+        </td>
+        <td>
+            <input type="button" id="chia" value="Divison(/)" onclick="tinhchia()">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <label for="ketqua" id="ketqua"></label>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
