@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>maytinhdongian</title>
+    <style>
+       table
+       {
+           width: 60%;
+           table-layout: fixed;
+       }
+        .content2
+        {
+            padding: 30%;
+        }
+        th
+        {
+            padding: 1px;
+
+        }
+        td
+        {
+           text-align: center;
+            padding: 1px;
+            border: 1px solid red;
+
+        }
+    </style>
+    <script>
+        function nhap(character) {
+            let nhap=document.getElementById('text').value;
+          document.getElementById('text').value=nhap +character;
+        }
+        function tinhtoan() {
+           let tinh =eval(document.getElementById('text').value);
+            document.getElementById('text').value= document.getElementById('text').value + "=" +tinh
+
+
+        }
+    </script>
+<!--    // hoac cach khac-->
+<!--    <script>-->
+<!--        function nhapxuat(character) {-->
+<!--           let text = document.getElementById('textp').textContent;-->
+<!--           document.getElementById('textp').innerHTML=text+character;-->
+<!--        }-->
+<!--        function tinhtoan() {-->
+<!--       let tinh =    (document.getElementById('textp').textContent);-->
+<!--       document.getElementById('textp').innerText=tinh;-->
+
+<!--        }-->
+<!--    </script>-->
+<!--    <p id="textp">-->
+
+<!--    </p>-->
+
+</head>
+<body>
+<div class="content2">
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" id="text"></td>
+        </tr>
+        <tr>
+        <td>
+            <input type="button" value="1" onclick="nhap('1')">
+        </td>
+            <td>
+                <button id="2" onclick="nhap('2')"> 2 </button>
+            </td>
+            <td>
+                <button id="3" onclick="nhap('3')"> 3 </button>
+            </td>
+            <td>
+                <button id="+" onclick="nhap('+')"> + </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="4" onclick="nhap('4')" > 4 </button>
+            </td>
+            <td>
+                <button id="5" onclick="nhap('5')"> 5 </button>
+            </td>
+            <td>
+                <button id="6" onclick="nhap('6')"> 6 </button>
+            </td>
+            <td>
+                <button id="-" onclick="nhap('-')"> - </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="7" onclick="nhap('7')"> 7</button>
+            </td>
+            <td>
+                <button id="8" onclick="nhap('8')"> 8</button>
+            </td>
+            <td>
+                <button id="9" onclick="nhap('9')"> 9</button>
+            </td>
+            <td>
+                <button id="*" onclick="nhap('*')"> * </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="C">
+            </td>
+            <td>
+                <button id="0" onclick="nhap('0')"> 0 </button>
+            </td>
+            <td>
+                <button id="=" onclick="tinhtoan()"> = </button>
+            </td>
+            <td>
+                <button id="/" onclick="nhap('/')"> /</button>
+            </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài3</title>
+</head>
+<body>
+<script>
+    function nhapmang(arr,n)
+    {
+        for(let i=0;i<n;i++)
+        {
+            arr[i]=prompt("nhập vào giá trị cho index"+i);
+        }
+    }
+    function demkytuso(arr)
+    {
+        let count=0;
+        for(let i=0;i<arr.length;i++)
+        {
+            if(!isNaN(arr[i]))
+            {
+                count++;
+            }
+        }
+        document.write("Số các ký tự số là " +count);
+    }
+    let arr=new Array();
+    let checker=false;
+    let n;
+    do
+    {
+        n=prompt("nhập vào số lượng phần tử:");
+        if(isNaN(n))
+        {
+            alert("vui lòng nhập con số");
+            continue;
+        }
+        if(!isNaN(n))
+        {
+            n=Number.parseFloat(n)
+        }
+        if(!Number.isInteger(n))
+        {
+            alert("Phải là số nguyên dương");
+            continue;
+        }
+        if(n<0 || n>100)
+        {
+            alert("nhập số từ 1-> 100");
+            continue;
+        }
+        checker=true;
+    }
+    while(!checker);
+    nhapmang(arr,n);
+    demkytuso(arr);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài6</title>
+</head>
+<body>
+<script>
+    let temp=[];
+    let arr = new Array();
+    let length=prompt("nhập vào độ dài của mảng");
+    for(let k=0;k<length;k++)
+    {
+        arr[k]=prompt("nhập vào phần tử thứ :"+k);
+    }
+    for(let i=0;i<arr.length;i++) {
+        for(let j=0;j<arr[i].length;j++)
+        {
+            if(arr[i][j]==="-")
+            {
+                temp.push("_")
+            }
+            else
+            {
+                temp.push(arr[i][j]);
+            }
+        }
+    }
+document.write("Your array: " + arr + "<br>");
+document.write("New Array: " + temp.join(""));
+</script>
+</body>
+</html>

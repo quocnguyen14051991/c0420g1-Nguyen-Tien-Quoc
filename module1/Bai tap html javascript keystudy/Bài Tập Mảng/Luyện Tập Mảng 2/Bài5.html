@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài5</title>
+</head>
+<body>
+<!--<label for="txt">String 1</label>-->
+<!--<input type="text" id="txt">-->
+<!--<label for="txt">String 2</label>-->
+<!--<input type="text" id="txt2">-->
+<!--<button onclick="compare()">Compare</button><br>-->
+<!--<p id="id"></p>-->
+<script>
+
+    let str1=prompt("nhập vào chuổi 1");
+    let str2=prompt("nhập vào chuổi 2");
+    let converstr1=str1.split("");
+    let converstr2=str2.split("");
+    function checkab(a,b) {
+        let check=true;
+        if(a.length===b.length)
+        {
+           for (let i=0;i<a.length;i++)
+           {
+               if(a[i]!==b[i])
+               {
+                   check =false;
+               }
+           }
+        }
+        else
+        {
+            check= false;
+        }
+        return check;
+    }
+    alert(checkab(converstr1,converstr2));
+    // let str = document.getElementById('txt');
+    // let str2 = document.getElementById('txt2');
+    // function compare()
+    // {
+    //     let wordSp = str.value.split(" ");
+    //     let wordSp2 = str2.value.split(" "); // tách chuổi thành mảng mới ko thay đổi chuổi gốc
+    //     let check = true;
+    //     if (wordSp.length == wordSp2.length) {
+    //         for(let i = 0; i < wordSp.length; i++) {
+    //             if (wordSp[i] != wordSp2[i]) {
+    //                 check = false;
+    //                 break;
+    //             }
+    //         }
+    //     } else {
+    //         check = false;
+    //     }
+    //     if (isSimilar) {
+    //         document.getElementById('id').innerHTML = "Two strings are the same";
+    //     } else {
+    //
+    //         document.getElementById('id').innerHTML = "Two strings are not the same";
+    //     }
+    // }
+</script>
+</body>
+</html>

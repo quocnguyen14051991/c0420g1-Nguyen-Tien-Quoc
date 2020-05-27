@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Employee.js"></script>
+</head>
+<body>
+<script>
+    let listEmployee = [];
+    let regexEmail = /\S+@\S+\.\S+/;
+    let regexBirthday = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
+    let regexCmnd = /^[\d]{8,8}$/;
+    let regexPhone = /^[\d]{8,8}$/;
+    displayMainMenu();
+
+    function displayMainMenu() {
+        let choose = parseInt(prompt("1.Add New Employee" + "\n" + "2.Display Information Employee" + "\n" + "3.Salary Employee" + "\n" + "4. Exit"));
+        switch (choose) {
+            case 1: {
+                addNewEmployee();
+                displayMainMenu();
+                break;
+            }
+            case 2: {
+                displayInformation();
+                displayMainMenu();
+                break;
+            }
+            case 3: {
+                displaySlary();
+                displayMainMenu();
+                break;
+            }
+            case 4: {
+                alert("Chúc Bạn May  Mắn Lần Sau");
+                break;
+            }
+            default: {
+                alert("Không có chức năng này!");
+                displayMainMenu();
+            }
+        }
+    }
+    function addNewEmployee() {
+        let checkValid = false;
+        let employee = new Employee();
+        let birthday;
+        let email;
+        let phone;
+        let cmnd;
+        employee.setName(prompt("Enter Name:"));
+        do {
+            birthday = prompt("Enter Birthday");
+            if (regexBirthday.test(birthday)) {
+                checkValid = true;
+            } else {
+                alert("ngày sinh ko hợp lệ")
+            }
+        } while (!checkValid);
+        employee.setBirthDay(birthday);
+        checkValid = false;
+        do {
+            email = prompt("nhap vao email:");
+            if (regexEmail.test(email)) {
+                checkValid = true;
+            } else {
+                alert("email ko hợp lệ")
+            }
+        } while (!checkValid);
+        employee.setEmail(email);
+        checkValid = false;
+        employee.setLevel(prompt("Enter Level:"));
+        do {
+            phone = prompt("nhap vao so phone");
+            if (regexPhone.test(phone)) {
+                checkValid = true;
+            } else {
+                alert("số điện thoại ko hợp lệ")
+            }
+        } while (!checkValid);
+        employee.setPhone(phone);
+        checkValid = false;
+        do {
+            cmnd = prompt("nhập vào chứng minh nhân dân");
+            if (regexCmnd.test(cmnd)) {
+                checkValid = true;
+            } else {
+                alert("cmnd ko hợp lệ");
+            }
+        } while (!checkValid);
+        employee.setCmnd(cmnd);
+        employee.setLocation(prompt("Enter Location:"));
+        listEmployee.push(employee);
+        alert("Bạn đã thêm thành công!")
+    }
+    function displayInformation() {
+        let temp = "";
+        for (let i = 0; i < listEmployee.length; i++) {
+            temp += i + listEmployee[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp));// index trong mảng
+        alert("Name:" + listEmployee[chooseDisplay].getName() + "\n" +
+            "Birth Day" + listEmployee[chooseDisplay].getBirthDay() + "\n" +
+            "Email" + listEmployee[chooseDisplay].getEmail() + "\n" +
+            "Level" + listEmployee[chooseDisplay].getLevel() + "\n" +
+            "Phone" + listEmployee[chooseDisplay].getPhone() + "\n" +
+            "Cmnd" + listEmployee[chooseDisplay].getCmnd() + "\n" +
+            "Location" + listEmployee[chooseDisplay].getLocation() + "\n"
+        );
+    }
+    function displaySlary() {
+        let temp = "";
+        for (let i = 0; i < listEmployee; i++) {
+            temp += "Name :" + listEmployee[i].getName();
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+        alert("Lương nhân viên " + listEmployee[chooseDisplay].getName() + "là:" + listEmployee[chooseDisplay].getSalary());
+    }
+</script>
+</body>
+</html>

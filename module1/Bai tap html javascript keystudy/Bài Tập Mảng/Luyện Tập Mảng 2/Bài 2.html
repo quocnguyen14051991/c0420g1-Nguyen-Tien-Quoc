@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài2</title>
+</head>
+<body>
+<script>
+    let arr=['c', 's', 'c', '2', '6', '1',"9"];
+    let i=0;
+    let j=arr.length-1;
+
+    while (j>i)
+    {
+        let temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+        j--;
+        i++;
+    }
+    document.write("chuổi sau khi đc đổi là:" +arr);
+
+</script>
+</body>
+</html>

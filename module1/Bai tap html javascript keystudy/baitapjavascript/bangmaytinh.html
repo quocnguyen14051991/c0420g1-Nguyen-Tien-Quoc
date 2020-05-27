@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bangmaytinh</title>
+    <style>
+        .content
+        {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        table
+        {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            table-layout: fixed;
+            padding: 30%;
+        }
+        td
+        {
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+        }
+        th
+        {
+            width: 200px;
+            border-bottom: 1px solid black;
+        }
+    </style>
+    <script src="js.js"></script>
+</head>
+<body>
+<div class="content">
+    <table>
+        <form action="hello.php">
+            <tr>
+                <td colspan="7" style="width: 300px">
+                    <input type="text" id="kq">
+                </td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="Rad"></td>
+                <td><input type="button" ></td>
+                <td><input type="button" value="x!"></td>
+                <td><input type="button" value="("></td>
+                <td><input type="button" value=")"></td>
+                <td><input type="button" value="%"></td>
+                <td><input type="reset" value="AC"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Inv"></td>
+                <td><input type="button" value="Sin"></td>
+                <td><input type="button" value="In"></td>
+                <td><input type="button" value="7" id="7" onclick="document.getElementById('kq').value=document.getElementById('kq').value+7 "></td>
+                <td><input type="button" value="8" id="8" onclick="document.getElementById('kq').value=document.getElementById('kq').value+8 "></td>
+                <td><input type="button" value="9" id="9" onclick="document.getElementById('kq').value=document.getElementById('kq').value+9 "></td>
+                <td><input type="button" value="÷" onclick="document.getElementById('kq').value=document.getElementById('kq').value+ '/' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="π"></td>
+                <td><input type="button" value="cos"></td>
+                <td><input type="button" value="log"></td>
+                <td><input type="button" value="4" id="4" onclick="document.getElementById('kq').value=document.getElementById('kq').value+4 "></td>
+                <td><input type="button" value="5" id="5" onclick="document.getElementById('kq').value=document.getElementById('kq').value+5 "></td>
+                <td><input type="button" value="6" id="6" onclick="document.getElementById('kq').value=document.getElementById('kq').value+6 "></td>
+                <td><input type="button" value="X" id="Xnhan" onclick="document.getElementById('kq').value=document.getElementById('kq').value+ '*' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="e"></td>
+                <td><input type="button" value="tan"></td>
+                <td><input type="button" value="✓"></td>
+                <td><input type="button" value="1" id="1" onclick="document.getElementById('kq').value=document.getElementById('kq').value+1 "></td>
+                <td><input type="button" value="2" id="2" onclick="document.getElementById('kq').value=document.getElementById('kq').value+2 "></td>
+                <td><input type="button" value="3" id="3" onclick="document.getElementById('kq').value=document.getElementById('kq').value+3 "></td>
+                <td><input type="button" value="-" id="-" onclick="document.getElementById('kq').value=document.getElementById('kq').value+ '-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Ans"></td>
+                <td><input type="button" value="EXP"></td>
+                <td><input type="button" value="X"></td>
+                <td><input type="button" value="0" id="0" onclick="document.getElementById('kq').value=document.getElementById('kq').value+0 "></td>
+                <td><input type="button" value="." id="." onclick="document.getElementById('kq').value=document.getElementById('kq').value+ '.' "></td>
+                <td><input type="button" value="=" id="=" onclick="tinh()"></td>
+                <td><input type="button" value="+" id="+" onclick="document.getElementById('kq').value=document.getElementById('kq').value+ '+' "></td>
+
+            </tr>
+        </form>
+    </table>
+</div>
+</body>
+</html>

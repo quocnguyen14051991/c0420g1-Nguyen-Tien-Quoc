@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra tính đối xứng</title>
+</head>
+<body>
+<script>
+ function check(s,firts,last)
+    {
+        let n = s.length;
+        if (first>=last) // chuổi rổng hoặc 1 ký tự thì nó là chuổi đối xứng
+        {
+            return true;
+        }
+        if(s[firts]===s[last])
+        {
+            return check(s,firts+1,last-1);
+        }
+        return false;
+    }
+
+    let str="aassaa";
+ let first=0;
+ let last=str.length-1;
+
+ if(check(str,first,last)==true)
+ {
+     alert("có")
+ }
+ else
+ {
+     alert("không")
+ }
+
+
+
+ // function isPalindrome(s) {
+ //     let first = 0, last = s.length - 1;
+ //     let check = true;
+ //     while (first < last) {
+ //         if (s[first] !== s[last]) {
+ //             check = false;
+ //             break;
+ //         } else {
+ //             ++first;
+ //             --last;
+ //         }
+ //     }
+ //     if(check==true)
+ //     {
+ //         alert("Có")
+ //     }
+ //     else
+ //     {
+ //         alert("không")
+ //     }
+ //
+ // }
+ // let string=prompt("nhập vào chuổi");
+ // isPalindrome(string);
+</script>
+</body>
+</html>

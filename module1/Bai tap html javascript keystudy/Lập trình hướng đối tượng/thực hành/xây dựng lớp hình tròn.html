@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xây dựng lớp hình tròn</title>
+</head>
+<body>
+<script>
+    class circle
+    {
+        // constructor(radius) {
+        //     this.radius=radius;// lấy ra thì cần phải có giá trị trả về giá trị
+        // }
+        setradius(radius)
+    {
+        this.radius=radius;
+    }
+        getradius()
+            {
+            return this.radius;
+            }
+        getarea()
+            {
+                return Math.PI*this.radius*this.radius;
+            }
+    };
+    // let hinhtron= new circle(2);
+    let hinhtron=new circle();
+    hinhtron.setradius(2);
+
+   let radius= hinhtron.getradius();
+    alert(radius);
+   //  let radius=hinhtron.getradius();
+   // let s= hinhtron.getarea();
+   // alert("radius" +radius+"diện tích là  "+s);
+</script>
+</body>
+</html>

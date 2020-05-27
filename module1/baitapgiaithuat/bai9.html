@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai9</title>
+</head>
+<body>
+<script>
+    function daonguoc(str) {
+        let arr=str.split("");
+        let firts=0;
+        let last=str.length-1;
+        while (firts<last){
+            let temp=arr[firts];
+            arr[firts]=arr[last];
+            arr[last]=temp;
+            firts++;
+            last--;
+        }
+        document.write("chuoi sau khi dc doi:"+arr.join("")+"<br>");
+    }
+    function doichuoisangthuong(str)
+    {
+        let str2= str.toLowerCase();
+        document.write("chuoi sau khi dc viet thuong :" +" " +str2);
+    }
+    function doichuoisanghoa(str){
+        let str2=str.toUpperCase();
+        document.write("chuoi sau khi dc viet hoa :" + " " +str2);
+    }
+    // function convertToLowerCase(str) {
+    //     let result = '';
+    //     for (let i = 0; i < str.length; i++) {
+    //         let code = str.charCodeAt(i);
+    //         if (code > 64 && code < 91) {
+    //             result += String.fromCharCode(code + 32);
+    //         } else {
+    //             result += str.charAt(i);
+    //         }
+    //     }
+    //     return result;
+    // }
+    function convertToLowerCaseandnguoclai(str) {
+        let result = '';
+        for (let i = 0; i < str.length; i++) {
+            let code = str.charCodeAt(i);
+            if (code > 64 && code < 91) {
+                result += String.fromCharCode(code + 32);
+            } else {
+                result += String.fromCharCode(code-32);
+            }
+        }
+        return result;
+    }
+    let string=prompt("nhap chuoi");
+    daonguoc(string);
+    doichuoisangthuong(string);
+    doichuoisanghoa(string);
+   let i= convertToLowerCaseandnguoclai(string);
+   alert(i);
+</script>
+</body>
+</html>

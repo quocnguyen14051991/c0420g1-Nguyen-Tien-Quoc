@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    function nhapmang(arr,n)
+    {
+    for(let i=0;i<n;i++)
+    {
+        arr[i]=prompt("nhập giá trị cho index" +i);
+    }
+    }
+    function delete_elenment(arr,index)
+    {
+        for(let i=index+1;i<arr.length;i++)
+        {
+            arr[i-1]=arr[i];
+        }
+        arr.length --;
+    }
+    function check_delete(arr,v)
+    {
+        let check=0;
+    for(let i=0;i<arr.length;i++)
+    {
+
+        if(arr[i]==v)
+        {
+            delete_elenment(arr,i);
+            i--;
+            check++
+        }
+    }
+        if(check==0)
+        {
+            document.write("v is not in Array");
+        } else {
+            document.write("v is in Array after deleted :" +arr.join(" "));
+        }
+    }
+    let arr=new Array();
+    let checker=false;
+    let n;
+    do
+    {
+        n=prompt("nhập vào số lượng phần tử:");
+        if(isNaN(n))
+        {
+            alert("vui lòng nhập con số");
+            continue;
+        }
+        if(!isNaN(n))
+        {
+            n=Number.parseFloat(n)
+        }
+        if(!Number.isInteger(n))
+        {
+            alert("Phải là số nguyên dương");
+            continue;
+        }
+        if(n<0 || n>100)
+        {
+            alert("nhập số từ 1-> 100");
+            continue;
+        }
+        checker=true;
+    }
+    while(!checker);
+    nhapmang(arr,n);
+    let v;
+    v=prompt("nhập vào v để kiểm tra>");
+    check_delete(arr,v);
+</script>
+</body>
+</html>

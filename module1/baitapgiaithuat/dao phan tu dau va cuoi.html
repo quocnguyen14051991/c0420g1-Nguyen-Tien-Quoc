@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        function swap(arr) {
+            let arrnew=[];
+            let firts=arr[0];
+            let last=arr[arr.length-1];
+            for(let i=1;i<arr.length-1;i++){
+                arrnew.push(arr[i]);
+            }
+            arrnew.push(firts);
+            arrnew.unshift(last);
+
+            return arrnew;
+        }
+        arr=[3,5,6,9,9,5,4,9,10];
+        let k=swap(arr);
+        alert(k);
+</script>
+</body>
+</html>

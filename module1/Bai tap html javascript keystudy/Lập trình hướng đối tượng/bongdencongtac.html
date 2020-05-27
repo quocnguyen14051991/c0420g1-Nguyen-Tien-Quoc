@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bongdencongtac</title>
+</head>
+<body>
+<script>
+    class ElectricLamp{
+        turnOn(){
+            this.status=true;
+            alert("den sang")
+        }
+        turnOff(){
+            this.status=false;
+            alert("den tat")
+        }
+    }
+    class SwitchButton{
+        connectToLamp(lamp){
+            this.lamp=lamp;
+        }
+        switchOn(){
+            this.status=true;
+            this.lamp.turnOn();
+        }
+        switchOff(){
+            this.status=false;
+            this.lamp.turnOff();
+        }
+    }
+    let Congtac,Bongden;
+    Congtac=new SwitchButton();
+    Bongden=new ElectricLamp();
+    Congtac.connectToLamp(Bongden);
+    for(let i=0;i<10;i++){
+        Congtac.switchOn();
+        Congtac.switchOff();
+    }
+</script>
+</body>
+</html>

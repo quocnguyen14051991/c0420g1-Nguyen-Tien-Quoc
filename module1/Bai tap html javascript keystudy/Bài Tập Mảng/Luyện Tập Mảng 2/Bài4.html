@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài4</title>
+</head>
+<body>
+<!--<label for="txt">Your string</label>-->
+<!--<input type="text" id="txt">-->
+<!--<button onclick="count()">Count</button><br>-->
+<!--<p id="id"></p>-->
+<!--<script>-->
+<!--    let str = document.getElementById('txt');-->
+<!--    function count() {-->
+<!--        let wordSp = str.value.split(" ");-->
+<!--        //hàm filler dùng để tạo 1 mảng mới với tất cả các phần tử thỏa điều kiện-->
+<!--        let filArr = wordSp.filter(-->
+<!--            function(value)-->
+<!--        {-->
+<!--            return value != ""}-->
+<!--        );-->
+<!--        document.getElementById('id').innerHTML ="The number of word is " + filArr.length;-->
+
+<!--    }-->
+<script>
+    let n=prompt("nhập vào 1 chuổi:");
+    n=n.trim();
+    let temp;
+    let count=1;
+    for(let i=0;i<n.length;i++)
+    {
+        if(n.charAt(i)===" "&& n.charAt(i+1)===" ")
+        {
+            continue;
+        }
+        if(n.charAt(i-1)===" ")
+        {
+            temp+=n.charAt(i);
+        }
+        temp+=n.charAt(i);
+    }
+    n=temp;
+    // duyệt n mới để tìm ra số từ vì trước ký tự đầu tiên ko có khoảng trắng nên nên count từ =1;
+    for(let i=0;i<n.length;i++)
+    {
+        if(n.charAt(i)===" " && n.charAt(i+1)!== " ")
+        {
+            count++
+        }
+    }
+    alert("số từ trong chuổi là :"+count);
+</script>
+</body>
+</html>

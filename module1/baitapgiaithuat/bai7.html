@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<script>
+    let m,dv,s=0,p=1;
+    m=prompt("nhap m");
+    while (m!==0)
+    {
+        dv=m%10;
+        s+=dv;
+        p*=dv;
+        m=parseInt(m/10);
+    }
+    document.write("tong S = "+s+"<br>");
+    document.write("tich P = "+p);
+</script>
+</body>
+</html>

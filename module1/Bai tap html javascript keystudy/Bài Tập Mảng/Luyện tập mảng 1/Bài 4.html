@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    function nhapmang(array,n)
+    {
+    for(let i=0;i<n;i++)
+    {
+        array[i]=prompt("nhập giá trị:" +i);
+    }
+    }
+    function hamdaonguoc(arr)
+    {
+        let firts,last;
+        firts=0;
+        last=arr.length-1;
+        let temp;
+            while(firts<last)
+            {
+                temp=arr[firts];
+                arr[firts]=arr[last];
+                arr[last]=temp;
+                firts++;
+                last--;
+            }
+            document.write(arr);
+    }
+    let m;
+    let arr= new Array();
+    let check=false;
+   do {
+       m=parseInt(prompt("input số lượng phần tử:"));
+       if(m<=0||m>100)
+       {
+           alert("Số từ 1-> 100");
+           continue;
+       }
+       check=true
+   }while (!check);
+    nhapmang(arr,m);
+    daonguoc=arr.reverse();
+  alert(daonguoc);
+  // hoặc dùng hàm arr.reverse()
+</script>
+</body>
+</html>

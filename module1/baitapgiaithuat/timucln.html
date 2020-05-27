@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ucln</title>
+</head>
+<body>
+<script>
+    let a,b;
+    a=parseInt(prompt("nhap vao so a"));
+    b=parseInt(prompt("nhap vao so b"));
+    while (a*b!==0){
+        if(a>b){
+            a=a-b;
+        }else{
+            b=b-a;
+        }
+    }
+    alert(parseInt(a)+parseInt(b));
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    for(let i=1;i<=7;i++)
+    {
+        for(let j=1;j<=20;j++)
+        {
+            if(i==1 ||i==7 )
+            {
+                document.write("*" );
+            }
+            else if(j==1 )
+            {
+                document.write("*" +"&ensp;" );
+            } else if(j==17)
+            {
+                document.write("&ensp;"+"*" +"&ensp;");
+            }
+
+            else {
+                document.write("&ensp;");
+            }
+        }
+        document.write("<br>")
+    }
+</script>
+</body>
+</html>

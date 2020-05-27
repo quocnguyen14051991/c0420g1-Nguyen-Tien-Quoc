@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GamePuzz</title>
+    <style>
+        .id
+        {
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+          </style>
+    <script>
+        function changeimage(indeximg) {
+            // lay id cua the html
+            let img0=document.getElementById('img0');
+            let img1=document.getElementById('img1');
+            let img2=document.getElementById('img2');
+            let img3=document.getElementById('img3');
+            let img4=document.getElementById('img4');
+            //kiem tra doi so truyen vao cua ham
+            switch (indeximg) {
+                case "0":
+                {
+                    //su kien truyen vao 1 chuoi co 1 trong  cac gia tri cua switch
+                    //lay duong dan tuong doi trong local getAttribute
+                    // y tuong lay duong dan kiem tra neu bang duong dan trong local thi doi anh su dung function voi tham so truyen vao
+              if( img0.getAttribute("src")== "image/cat0.jpg")
+                    {
+                        img0.src="image/monkey0.jpg"
+                    }
+              else if(img0.getAttribute("src") == "image/monkey0.jpg")
+                {
+                    img0.src="image/panda0.jpg"
+                }
+              else if(img0.getAttribute("src")=="image/panda0.jpg")
+              {
+                  img0.src="image/cat0.jpg"
+              }
+                    break;
+                }
+                case "1":
+                {
+                    if( img1.getAttribute("src")== "image/monkey1.jpg")
+                    {
+                        img1.src="image/cat1.jpg"
+                    }
+                    else if(img1.getAttribute("src") == "image/cat1.jpg")
+                    {
+                        img1.src="image/panda1.jpg"
+                    }
+                    else if(img1.getAttribute("src")=="image/panda1.jpg")
+                    {
+                        img1.src="image/monkey1.jpg"
+                    }
+                    break;
+                }
+                case "2":
+                {
+                    if( img2.getAttribute("src")== "image/monkey2.jpg")
+                    {
+                        img2.src="image/cat2.jpg"
+                    }
+                    else if(img2.getAttribute("src") == "image/cat2.jpg")
+                    {
+                        img2.src="image/panda2.jpg"
+                    }
+                    else if(img2.getAttribute("src")=="image/panda2.jpg")
+                    {
+                        img2.src="image/monkey2.jpg"
+                    }
+                    break;
+                }
+                case "3":
+                {
+                    if( img3.getAttribute("src")== "image/monkey3.jpg")
+                    {
+                        img3.src="image/cat3.jpg"
+                    }
+                    else if(img3.getAttribute("src") == "image/cat3.jpg")
+                    {
+                        img3.src="image/panda3.jpg"
+                    }
+                    else if(img3.getAttribute("src")=="image/panda3.jpg")
+                    {
+                        img3.src="image/cat3.jpg"
+                    }
+                    break;
+                }
+                case "4":
+                {
+                    if( img4.getAttribute("src")== "image/cat4.jpg")
+                    {
+                        img4.src="image/monkey4.jpg"
+                    }
+                    else if(img4.getAttribute("src") == "image/monkey4.jpg")
+                    {
+                        img4.src="image/panda4.jpg"
+                    }
+                    else if(img4.getAttribute("src")=="image/panda4.jpg")
+                    {
+                        img4.src="image/cat4.jpg"
+                    }
+                    break;
+                }
+            }
+            if (img0.getAttribute("src") === "image/cat0.jpg" && img1.getAttribute("src") === "image/cat1.jpg" &&
+                img2.getAttribute("src")==="image/cat2.jpg" && img3.getAttribute("src")==="image/cat3.jpg" &&
+                img4.getAttribute("src")==="image/cat4.jpg")
+            {
+                doianh();
+            } else  if(img0.getAttribute("src") === "image/monkey0.jpg" && img1.getAttribute("src") === "image/monkey1.jpg" &&
+                img2.getAttribute("src")==="image/monkey2.jpg" && img3.getAttribute("src")==="image/monkey3.jpg" &&
+                img4.getAttribute("src")==="image/monkey4.jpg")
+            {
+                doianh();
+            }
+            else if(img0.getAttribute("src") === "image/panda0.jpg" && img1.getAttribute("src") === "image/panda1.jpg" &&
+                img2.getAttribute("src")==="image/panda2.jpg" && img3.getAttribute("src")==="image/panda3.jpg" &&
+                img4.getAttribute("src")==="image/panda4.jpg")
+            {
+                doianh();
+            }
+            function doianh() {
+                document.getElementById('anh1').style.border="2px solid blue";
+                document.getElementById('anh2').style.border="2px solid blue";
+                document.getElementById('anh3').style.border="2px solid blue";
+                document.getElementById('anh4').style.border="2px solid blue";
+                document.getElementById('anh5').style.border="2px solid blue";
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="id" style="width: 803px">
+<div id="anh1">
+     <img src="image/cat0.jpg" onclick="changeimage('0')" id="img0" style="width: 800px; height:160px">
+</div>
+<div id="anh2">
+    <img src="image/monkey1.jpg" onclick="changeimage('1')" id="img1" style="width: 800px; height:160px">
+</div>
+<div id="anh3">
+    <img src="image/monkey2.jpg" onclick="changeimage('2')" id="img2" style="width: 800px; height:160px">
+</div>
+<div id="anh4">
+    <img src="image/monkey3.jpg" id="img3" onclick="changeimage('3')" style="width: 800px; height:160px">
+</div>
+<div id="anh5">
+    <img src="image/cat4.jpg" id="img4" onclick="changeimage('4')" style="width: 800px; height:160px">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>đếm số nguyên âm của 1 chuổi</title>
+</head>
+<body>
+<script>
+    let arr= new Array();
+    arr[0]=prompt("nhap vao 1 chuổi")
+    let chuoi=arr[0];
+    let count_nguyenam=0,count_phuam=0;
+   for(let i=0;i<chuoi.length;i++)
+   {
+       if(chuoi[i] == 'a' || chuoi[i] == 'e' || chuoi[i] == 'i' || chuoi[i] == 'o' || chuoi[i] == 'u' )
+       {
+           count_nguyenam++;
+       }
+       else {
+           count_phuam++;
+       }
+   }
+   document.write("số nguyên âm là:" +count_nguyenam +"<br>" +"Số phụ âm là " +count_phuam);
+
+</script>
+</body>
+</html>

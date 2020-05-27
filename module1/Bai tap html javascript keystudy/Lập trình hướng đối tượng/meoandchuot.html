@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meoanchuot</title>
+</head>
+<body>
+<script>
+    class Mouse{
+        constructor(name,weight,speed,status) {
+            this.name=name;
+            this.weight=weight;
+            this.speed=speed;
+            this.status=status;
+        }
+        say(chutchit){
+            alert(chutchit);
+        }
+        getStatus(){
+            return this.status;
+        }
+    }
+    class Cat{
+        constructor(name,weight,speedmax) {
+        this.name=name;
+        this.weight=weight;
+        this.speedmax=speedmax;
+        }
+
+        say(meomeo)
+        {
+            alert(meomeo);
+        }
+        batchuot(chuot){
+            if(this.speedmax>chuot.speed){
+            return true;
+            }
+        }
+        anchuot(chuot){
+
+        }
+    }
+</script>
+</body>
+</html>

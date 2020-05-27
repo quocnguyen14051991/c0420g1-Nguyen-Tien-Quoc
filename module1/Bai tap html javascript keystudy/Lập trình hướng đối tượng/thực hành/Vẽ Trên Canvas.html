@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vẽ trên canvas</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+    // let c=document.getElementById('mycanvas');
+    // let ctx=c.getContext("2d");
+    // ctx.moveTo(20,50);
+    // ctx.lineTo(50,300);
+    // ctx.stroke();
+    // vẽ hình tron
+    // ctx.beginPath();
+    // ctx.arc(0,0,40,0,1.5*Math.PI);
+    // ctx.stroke()
+    // let ctx=c.getContext("2d")
+    // ctx.font="30px Arial";
+    // ctx.fillText("hello",100,300)
+
+//
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+    // Create gradient
+    var grd = ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"red");
+    grd.addColorStop(1,"white");
+
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10,10,150,80);
+</script>
+</body>
+</html>

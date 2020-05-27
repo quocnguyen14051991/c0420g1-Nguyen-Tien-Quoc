@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    function nhapmang(arr,n)
+    {
+   for(let i=0;i<n;i++)
+    {
+       arr[i]=prompt("nhập vào phần tử thứ" +i)
+    }
+    }
+    function checksoam(arr)
+    {
+        let count=0;
+        for(let i=0;i<arr.length;i++)
+        {
+            if(arr[i]<0)
+            {
+                count++
+            }
+        }
+        document.write("Số nguyên âm trong mảng là:" +count);
+    }
+    let m,arr= new Array();
+    let check=false;
+    do {
+        m=(prompt("nhập vào độ dài mảng:"));
+        if(isNaN(m))
+        {
+            alert("Xin vui lòng nhập số");
+            continue;
+        }
+        if(!isNaN(m))
+        {
+            m=Number.parseFloat(m);
+        }
+        if(!Number.isInteger(m))
+        {
+            alert(" phải là 1 số nguyên dương");
+            continue;
+        }
+        if(m<0||m>100)
+        {
+            alert("vui lòng nhập vào số từ 1 -> 100");
+            continue;
+        }
+        check=true;
+    } while (!check);
+    nhapmang(arr,m);
+    checksoam(arr);
+
+</script>
+</body>
+</html>

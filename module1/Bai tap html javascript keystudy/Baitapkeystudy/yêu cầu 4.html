@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yêu cầu 4 keystudy</title>
+</head>
+<body>
+<script>
+    let arrNameCustomers = [];
+    let slcustomer;
+    let name;
+    main();
+
+    function main() {
+        let choose = parseInt(prompt("1.Add New Customer " + "\n" + "2.Delete Customer"));
+        switch (choose) {
+            case 1: {
+                slcustomer = prompt("Enter Number Customer");
+                for (let i = 0; i < slcustomer; i++) {
+                    // arrNameCustomers[i] = prompt(" nhập tên");
+                    let nameCustomer = prompt("Enter Name Customer:")
+                    arrNameCustomers.push(nameCustomer);// thêm phần tử vào mảng
+                }
+                let result = "";
+                arrNameCustomers.sort();
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    result += arrNameCustomers[i] + "\n";
+                }
+                alert(result);
+                main();
+                break;
+            }
+            case 2:
+                let check = false;
+                let nameCustomer = prompt("Enter Name customer Delete");
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    if (arrNameCustomers[i] === nameCustomer) {
+                        arrNameCustomers.splice(i, 1);// xóa phần tử ra khỏi mảng
+                        check = true;
+                    }
+                }
+                if (!check) {
+                    alert("tên bạn muốn xóa ko có trong danh sách")
+                }
+                let result = "";
+                arrNameCustomers.sort();
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    result += arrNameCustomers[i] + "\n";
+                }
+                alert(result);
+                main();
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+
+<script>
+    // Tính tổng của 20 số đầu tiên trong dãy fibonaci
+    let i=0,a1=0,a2=1,a,s=0;
+    while (i<20)
+    {
+        a=a1+a2;
+        a1=a2;
+        a2=a;
+        s=s+a1;
+        document.write(a1 + " ");
+        i++;
+    }
+    alert("kết quả của 20 số đầu tiên trong dãy fibonaci là :" +s);
+</script>
+
+</body>
+</html>

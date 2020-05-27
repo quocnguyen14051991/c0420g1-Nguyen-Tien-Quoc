@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 2</title>
+</head>
+<body>
+
+<script>
+    // tính giai thừa của 1 số nguyên
+    let n,i=2;
+    let s=1;
+    n=prompt("nhập số cần tính giai thừa :");
+    if(n==0 || n==1)
+    {
+        alert("Giai thừa :" +1);
+    }
+    else
+    {
+    while (i<=n)
+    {
+        s=s*i;
+        i++;
+    }
+    alert(s);
+        }
+    // cách 2 đệ quy
+   //  function dequygiaithua(n)
+   //  {
+   //      if(n==0 || n==1)
+   //      {
+   //          return 1;
+   //      }
+   //      else
+   //      {
+   //          return n*dequygiaithua(n-1);
+   //      }
+   //  }
+   //  let m;
+   //  m=prompt("nhap n");
+   // let kq=dequygiaithua(m);
+   //  alert(kq);
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+   let sophut,phi=0;
+   let tong;
+        const  phicodinh=25;
+  sophut= prompt("Nhap so phut da su dung : ");
+        if(sophut>200)
+            phi=(sophut-200)*200+150*400+50*600;
+        else if(sophut>50)
+            phi=(sophut-50)*400+50*600;
+        else
+            phi=sophut*600;
+        tong=0.01*phi+phicodinh;
+alert("Ban da goi " +sophut + " phut."
+        + "So tien phai nop cua ban la "+tong );
+
+</script>
+</body>
+</html>

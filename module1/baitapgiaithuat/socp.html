@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function check(n){
+let checked=false;
+for(let i=1;i<=n;i++){
+if(parseInt(i*i)==n){
+checked=true;
+}
+}
+return checked;
+}
+let n=prompt("nhap so vao để kiểm tra")
+alert(check(n))
+</script>
+</body>
+</html>

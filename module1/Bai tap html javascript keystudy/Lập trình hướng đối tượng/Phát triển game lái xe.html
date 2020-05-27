@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phát triển game lái xe</title>
+</head>
+<body>
+
+<canvas id="viewport" width="1386" height="768" style="border: 1px solid blue">
+</canvas>
+<!--<img src="anhxe.png" alt="anhxe" id="anh" height="50px" width="70px">-->
+<script>
+    var canvas = document.getElementById('viewport'),
+        context = canvas.getContext('2d');
+
+    make_base();
+
+    function make_base() {
+        base_image = new Image();
+        base_image.src = 'anhxe.png';
+        base_image.onload = function () {
+            context.drawImage(base_image, 600, 380,100,80);
+        };
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    function giaithua(n) {
+        if(n==0||n==1)
+        {
+            return 1;
+        }else {
+            return n*giaithua(n-1);
+        }
+    }
+    function sum(n) {
+        let sum=0;
+        for(let i=1;i<=n;i++){
+            sum+=1/giaithua(2*i-1);
+        }
+        return sum;
+    }
+    let n=prompt("nhap n");
+    let tong=sum(n);
+    alert(tong);
+</script>
+</body>
+</html>

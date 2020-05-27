@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>footvameter</title>
+</head>
+<body>
+<script>
+    function meterToFoot(meter) {
+        return 3.279 * meter;
+
+    }
+    function footToMeter(foot) {
+        return  0.305 * foot;
+
+    }
+    let n;
+    n=prompt("nhập vào giá trị cần chuyển ");
+    document.write("giá trị nhập vào :"+n+"<br>");
+
+    document.write("giá trị từ foot->met" +" :" + footToMeter(n) +"<br>");
+    document.write("giá trị từ metter->foot"+ " :" + meterToFoot(n));
+
+</script>
+</body>
+</html>

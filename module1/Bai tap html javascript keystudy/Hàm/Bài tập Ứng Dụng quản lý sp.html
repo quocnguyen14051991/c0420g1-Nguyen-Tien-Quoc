@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ứng dụng quản lý sản phẩm</title>
+</head>
+<body>
+<h1> Add New Produce</h1>
+<input type="text" placeholder="New Product" id="text">
+<button id="add" onclick="themsp()">Add</button>
+<h2>Display All Product</h2>
+<p id="hienthi"></p>
+<script>
+
+    let arrsp = ["Nokia", "Xsony", "Iphone"];
+    hienThiSpham();
+
+    function hienThiSpham() {
+        let strtable = "<table border=\"1\" width=\"100%\">\n" +
+            "    <th colspan=\"3\"> Product Name</th>\n"
+        for (let i = 0; i < arrsp.length; i++) {
+            strtable += " <tr>\n" +
+                "            <td>" + arrsp[i] + "</td>\n" +
+                "            <td><button onclick='suaSp(" + i + ")' id='edit'>Edit</button></td>\n" +
+                "            <td><button id='remove'onclick='xoasp(" + i + ")'>Remove</button></td>\n" +
+                "        </tr>"
+        }
+        strtable += "</table>"
+        document.getElementById('hienthi').innerHTML = strtable;
+    }
+
+    function themsp() {
+        let value = document.getElementById('text').value;
+        if (value.trim().length === 0) {
+            alert("vui lòng nhập tên để thêm vào")
+        } else {
+            arrsp.push(value);
+            hienThiSpham();
+        }
+    }
+
+    function suaSp(i) {
+        let sp = prompt("nhập tên để sửa");
+        if (sp == "" || sp == null) {
+            alert("vui lòng nhập vào trường này")
+        } else {
+            arrsp[i] = sp;
+            hienThiSpham();
+        }
+
+    }
+
+    function xoasp(i) {
+        arrsp.splice(i, 1);
+        hienThiSpham();
+
+    }
+
+</script>
+</body>
+</html>

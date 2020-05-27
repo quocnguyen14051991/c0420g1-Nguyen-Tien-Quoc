@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //split biến chuổi thành mảng sẽ phân tách một chuỗi thành một mảng dữ
+    // liệu dựa vào các kí tự phân cách trong chuỗi. Phương thức sẽ trả về một mảng mới.
+    //string.split() ko làm thay đổi giá trị ban đầu của chuổi và mảng đó chỉ có 1 phần tử
+    //Nếu kí tự phân cách là một chuỗi rỗng, mỗi kí tự trong chuỗi sẽ được phân tách thành một phần tử của mảng.
+    // separator là kí tự phân cách trong chuỗi, phương thức sẽ dựa vào kí tự này
+    // để phân tách chuỗi. Nếu không truyền vào, mảng trả về sẽ có một phần tử duy nhất có giá
+    // trị bằng chuỗi ban đầu. Nếu truyền vào một chuỗi rỗng,
+    // mỗi kí tự trong chuỗi sẽ là một phần tử của mảng trả về.
+
+    //limit là tham số quy định số phần tử tối đa của mảng trả về nếu ko truyền vào thì phương thức sẻ lấy tất cả các phần tử có thể
+    // =============
+
+    // str="aaaaa aaa aa"
+    // var k;
+
+    // ==============
+     // k=str.split("");// nếu truyền vào 1 ký tự rổng thì mỗi ký tự là 1 phần tử của mảng
+     // k=str.split();// nếu ko truyền vào gì cả mảng chỉ có 1 phần tử duy nhất có giá trị bằng chuỗi ban đầu
+    //==============
+//str.split("/") đây là ký tự ngăn cách chia các thành các phần tử trong mảng
+    // k=str.split(" ")//
+    // alert(k)
+    // alert(k.length);
+    //array.join() nối các phần tử trong mảng thành chuỗi. các phần tử được ngăn cách nhau bởi ký tự do người dùng quy định mặc định dấu ,
+    // alert(k.join(" "))
+    // k.push("aaa"); // giá trị trả về là chiều dài của mảng
+    // k.shift()// giá trị trả về là giá trị phần tử đó
+    //slice trích xuất 1 số phần tử của mảng array.slice(1,4) ko làm thay đổi mảng gốc giống substring
+    // alert(k)
+    // ===============
+
+    // let arrms=k.slice(1,2)
+    // alert(arrms);
+    // phương thức filter có tham số là 1 function sẻ xử lý cho mỗi vòng lặp nếu function return true thì phàn tử lặp đó đc chấp nhận
+    //ngược lại ko đc chấp nhận
+
+ var number=[20,10,5,3,60,90]
+    // var newNumber=number.filter(function (item) {
+    //     return item%2===0;
+    // })
+    // alert(newNumber)
+// hàm Hàm array.splice() sẽ thay thế một hoặc một ....//làm thay đổi mảng ban đầu
+    // số phần tử của mảng bằng một hoặc một số phần tử khá
+    // c, lưu ý rằng số phần tử bị
+    // bỏ đi có thể
+    // ít hơn số phần tử được thêm vào
+    // và ngược lại. cũng có thể xóa phần tử array.splice(index, howmany, item1, ....., itemX)
+    // index là vị trí bắt đầu thay thế
+    // howmany là số phần tử sẻ bị thay thế
+   let k= number.splice(0,2) // cắt đoạn này vứt thì mảng còn lại 4 phần tử
+    alert(k);
+ alert(number);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // ========================================
+    // code thêm 1 phần tử vào mảng
+    // var number=[5,10,20,22,60,75,90];
+    // var news=[];
+    // for (let i = 0; i <number.length ; i++) {
+    //     if(number[i]%2===0){
+    //         news.push(number[i]);
+    //     }
+    // }
+    // alert(news.join());
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài8</title>
+</head>
+<body>
+<script>
+
+    function nhapmang(arr,m)
+    {
+    for(let i=0;i<m;i++)
+    {
+        arr[i]=prompt("nhập phần tử của index" +i)
+    }
+    }
+//đây là so sánh chọn so sánh từ phàn tử của i vs j chạy từ đầu đến cuối mảng
+    // function sapxep(arr)
+    // {
+    //    for(let i=0;i<arr.length-1;i++)
+    //    {
+    //        for(let j=i+1;j<arr.length;j++)
+    //        {
+    //            if(arr[i]<arr[j])
+    //            {
+    //               let temp=arr[i];
+    //               arr[i]=arr[j];
+    //               arr[j]=temp;
+    //
+    //            }
+    //        }
+    //    }
+    //    document.write(arr)
+    // }
+    //buble sort sx nỗi bọt so sánh từng cặp từ cuôi đến khi nhỏ hơn i
+function sxbuble(arr)
+{
+  for(let i=0;i<arr.length-1;i++) {
+        for (let j = arr.length - 1; j > i; j--) {
+            if (arr[j] < arr[j-1])
+            {
+                let temp = arr[j];
+                arr[j] = arr[j - 1];
+                arr[j - 1] = temp;
+            }
+        }
+    }
+    document.write(arr);
+
+}
+    let n,arr=new Array();
+    let check=false;
+    do {
+        n=prompt("nhập số lượng cho mảng");
+        if(isNaN(n))
+        {
+            alert("vui lòng nhập 1 con số");
+            continue;
+        }
+        if(!isNaN(n))
+        {
+            n=Number.parseFloat(n);
+        }
+        if(!Number.isInteger(n))
+        {
+            alert("phải nhập số nguyên");
+            continue;
+        }
+        if(n<1||n>100)
+        {
+            alert("nhập số từ 1-> 100");
+            continue;
+        }
+        check=true;
+    }while (!check);
+    nhapmang(arr,n);
+   // sapxep(arr);
+    // hoặc sx theo cách buble sort sx nỗi bọt phần tử lớn hoặc nhỏ hơn sẻ trồi ra đầu hoặc cuối của mảng:
+    sxbuble(arr);
+    // cách khác là sắp xếp theo quicksort phân vùng dựa vào key bên trai của key là các phần tử nhỏ hơn key bên phải của key là các phần lớn hơn key
+    // cài đặt..
+
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>denvapin</title>
+</head>
+<body>
+<script>
+    class Battery{
+       setEnergy(energy){
+           this.energy=energy;
+       }
+       getEnergy(){
+           return this.energy;
+       }
+       decreaseEnergy(){
+           this.energy--
+       }
+    }
+    class FlashLamp{
+        setBattery(battery){
+            this.battery=battery;
+        }
+        getBatteryInfo(){
+            return battery.getEnergy();
+        }
+        light(){
+            if(this.status){
+                alert("Linghting");
+            }else {
+                alert("not lighting");
+            }
+        }
+        turnOn(){
+            battery.decreaseEnergy();
+            this.status=true;
+        }
+        turnOff(){
+            this.status=false;
+        }
+    }
+    battery=new Battery();
+    battery.setEnergy(10);
+    flashLamp=new FlashLamp();
+    flashLamp.setBattery(battery);
+    // alert(flashLamp.getBatteryInfo());
+    flashLamp.turnOn();
+    flashLamp.light();
+    alert(flashLamp.getBatteryInfo())
+    flashLamp.turnOff();
+    flashLamp.light();
+    flashLamp.turnOn();
+    flashLamp.light();
+    flashLamp.turnOn();
+    flashLamp.light();
+    flashLamp.turnOn();
+    alert(flashLamp.getBatteryInfo());
+    flashLamp.light();
+</script>
+</body>
+</html>

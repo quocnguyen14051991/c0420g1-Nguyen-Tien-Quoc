@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai09</title>
+</head>
+<body>
+<script>
+    function checkdoixung(a) {
+        let first=0,last=a.length-1;
+        let check=true;
+        while (first<last)
+        {
+            if(a[first]!==a[last]) {
+                check=false;
+                break;
+            }else {
+                first++;
+                last--;
+            }
+        }
+        if(check==true)
+        {
+            alert("có đối xưng")
+        }
+        else
+        {
+            alert("ko có đối xưng")
+        }
+
+    }
+    let str=prompt("nhập vào chuổi để kiểm tra");
+    checkdoixung(str);
+</script>
+</body>
+</html>

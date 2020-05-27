@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baitapinbangcuuchuong
+    </title>
+</head>
+<body>
+<h1 style="text-align: center">Bảng Cửu Chương</h1>
+<script>
+    let sounce="<table cellspacing='0' cellpadding='10' width='100%' border='1'>"
+    for(let i=1;i<=9;i++)
+    {
+        sounce+="<tr>";
+        for(let j=2;j<=9;j++)
+        {
+            sounce+="<td>"+j +"x" +i+"="+j*i +"</td>"
+        }
+        sounce+="</tr>"
+    }
+    sounce+="</table>"
+    document.write(sounce);
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    let arr= new Array(),n,V;
+   let check=false;
+   do
+   {
+       n=prompt("nhập vào số lượng phần tử của mảng:");
+       if(isNaN(n))
+       {
+           alert("nhập vào 1 con số");
+           continue;
+       }
+   if(!isNaN(n))
+   {
+       n=Number.parseFloat(n);
+   }
+   if(!Number.isInteger(n))
+   {
+       alert("phải là số nguyên dương nhé");
+       continue;
+   }
+   if(n<1|| n>100)
+   {
+       alert("nhập con số từ 1 đến 100");
+       continue;
+   }
+   check=true;
+   }while (!check);
+
+    function nhapmang(arr,n)
+    {
+        for(let i=0;i<n;i++)
+        {
+            arr[i]=prompt("nhập phần tử thứ" +i);
+        }
+    }
+    function kiemtra(arr,V)
+    {
+        let count=0;
+        for(let i=0;i<arr.length;i++)
+        {
+            if(arr[i] == V)
+            {
+                count++
+            }
+        }
+
+        if(count==0)
+        {
+            alert("V is not in Array" );
+        }
+        else
+        {
+            document.write("V is  in Array" + " Số lần xuất hiện trong mảng là " +count +" "+ "các Lần xuất hiện ở các vị trí:" );
+            for(let i=0;i<arr.length;i++)
+            {
+                if(arr[i]=V)
+                {
+                    document.write(i + ", ");
+                }
+            }
+        }
+
+    }
+    nhapmang(arr,n);
+    V=parseInt(prompt("Nhập Vào V:"));
+    kiemtra(arr,V);
+    position(arr,V);
+    // document.write(arr);
+</script>
+</body>
+</html>

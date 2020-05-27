@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    function giaithua(n) {
+        if(n==0 ||n==1){
+            return 1;
+        }
+        else {
+            return n * giaithua(n - 1);
+        }
+    }
+    function tinhtong(n) {
+        let sum=15;
+        for(let i=1;i<=n;i++){
+            sum+=Math.pow(-1,i)/(giaithua(i));
+        }
+        return sum;
+    }
+    let n=prompt("nhap n");
+    let tong=tinhtong(n);
+    alert(tong);
+</script>
+</body>
+</html>

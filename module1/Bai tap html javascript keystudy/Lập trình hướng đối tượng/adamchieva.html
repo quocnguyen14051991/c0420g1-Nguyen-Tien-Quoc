@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adamaneva</title>
+</head>
+<body>
+<script>
+    class Apple{
+       constructor() {
+           this.weight=10;
+       }
+       deCrease() {
+           this.weight--;
+       }
+       isEmpty(){
+           if(this.weight>0){
+               return true;
+           }else {
+               return false;
+           }
+       }
+       getWeight(){
+           return this.weight;
+       }
+    }
+    class Human{
+        constructor(name,gender,weight) {
+            this.name=name;
+            this.gender=gender;
+            this.weight=weight;
+        }
+        isMale(){
+            if(this.gender){
+                return true;
+            }
+        }
+        setGender(gender){
+            this.gender=gender;
+        }
+        checkApple(apple){
+           if(apple.getWeight()>0){
+               return true;
+           }else {
+               return false;
+           }
+        }
+        eat(apple){
+            if(this.checkApple(apple)){
+                apple.weight--;
+                this.weight++;
+            }else {
+                alert("ko con j de an ca")
+            }
+        }
+        say(say){
+            alert(say);
+        }
+        getName(){
+            return this.name;
+        }
+        setName(name){
+            this.name=name;
+        }
+        getWeight(){
+            return this.weight;
+        }
+        setWeight(weight){
+            this.weight=weight;
+        }
+    }
+    let adam,eva,apple;
+    adam=new Human("adam",true,50);
+    eva=new Human("eva",false,65);
+    apple=new Apple();
+    alert(apple.getWeight());
+    adam.say("dmm");
+    eva.say("cc");
+    for(let i=5;i>0;i--){
+        adam.eat(apple);
+        eva.eat(apple);
+    }
+    alert(adam.getWeight());
+    alert(eva.getWeight());
+    alert(apple.getWeight());
+    adam.say("con ko?");
+    adam.eat(apple);
+    alert(adam.checkApple(apple));
+    alert(apple.isEmpty());
+    alert(adam.checkApple(apple));
+</script>
+</body>
+</html>

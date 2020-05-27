@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <script src="Customer.js"></script>
+</head>
+<body>
+<script>
+    let regexEmail = /\S+@\S+\.\S+/;
+    let regexBirthday = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/;
+    let regexCmnd = /^[\d]{8,8}$/;
+    let regexRendays = /^\d+$/;
+    let regexDiscount = /^\d+$/;
+    let regexQuantityIncluded = /^\d+$/;
+    let listCustomer = [];
+    let name;
+    let cmnd;
+    let email;
+    let birthday;
+    let discount;
+    let quantityIncluded;
+    let renDays;
+    let address;
+    let typeSevice;
+    let typeroom;
+    let typeCustomer;
+
+    displayMainMenu();
+
+    function displayMainMenu() {
+        let choosec = parseInt(prompt("1.Add New Customer " + "\n" +
+            "2.Display Information Customer." + "\n" + "3.Display Total Pays Customer" + "\n" + "4.Edit Information Customer."
+            + "\n" + "5.Delete Customer." + "\n" + "6.Exit"
+        ));
+        switch (choosec) {
+            case 1: {
+                addNewCustomer();
+                displayMainMenu();
+                break;
+            }
+            case 2: {
+                displayInfomationCustomer();
+                displayMainMenu();
+                break;
+            }
+            case 3: {
+                displayTotalPays();
+                displayMainMenu();
+                break;
+            }
+            case 4: {
+                editCustomer();
+                displayMainMenu();
+                break;
+            }
+            case 5: {
+                Remove();
+                displayMainMenu();
+                break;
+            }
+            case 6: {
+                alert("Exit")
+            }
+            default: {
+                alert("Faile");
+            }
+        }
+    }
+
+    function addNewCustomer() {
+        let cus = new Customer();
+        name = prompt("Input name:");
+        checkValid = false;
+        do {
+            cmnd = prompt("nhap vao cmnd");
+            if (regexCmnd.test(cmnd)) {
+                checkValid = true;
+            } else {
+                alert("Cmnd không hợp lệ")
+            }
+        } while (!checkValid);
+        checkValid = false;
+        do {
+            birthday = prompt("Input birthday");
+            if (regexBirthday.test(birthday)) {
+                checkValid = true;
+            } else {
+                alert("Birthday Không hợp lệ . vui lòng nhập lại")
+            }
+        } while (!checkValid);
+        checkValid = false;
+        do {
+            email = prompt("Input email");
+            if (regexEmail.test(email)) {
+                checkValid = true;
+            } else {
+                alert("Email không hợp lê vui lòng nhập lại")
+            }
+        } while (!checkValid);
+        address = prompt("nhap vao address");
+        typeSevice = prompt("nhap type service");
+        typeroom = prompt("nhap vao type room");
+        typeCustomer = prompt("nhap vao type customer");
+        checkValid = false;
+        do {
+            discount = prompt("Input Discount");
+            if (regexDiscount.test(discount)) {
+                checkValid = true;
+            } else {
+                alert("vui long nhap lai con so")
+            }
+        } while (!checkValid);
+
+        checkValid = false;
+        do {
+            quantityIncluded = prompt("Input quantityIncluded");
+            if (regexQuantityIncluded.test(quantityIncluded)) {
+                checkValid = true;
+            } else {
+                alert("Vui long nhap lai ! du lieu ko hop le")
+            }
+        } while (!checkValid);
+
+        checkValid = false;
+        do {
+            renDays = prompt("Input renDays");
+            if (regexRendays.test(renDays)) {
+                checkValid = true;
+            } else {
+                alert("vui long nhap so ")
+            }
+        } while (!checkValid);
+        cus.setName(name);
+        cus.setName(name);
+        cus.setName(name);
+        cus.setCmnd(cmnd);
+        cus.setBirthDay(birthday);
+        cus.setEmail(email);
+        cus.setAddress(address);
+        cus.setTypeService(typeSevice);
+        cus.setTypeRoom(typeroom);
+        cus.setTypeCustomer(typeCustomer);
+        cus.setDiscount(discount);
+        cus.setQuanlityInclude(quantityIncluded);
+        cus.setRentDays(renDays);
+        listCustomer.push(cus);
+        alert("ban da them thanh cong");
+    }
+
+    function displayInfomationCustomer() {
+        let temp = "";
+        for (let i = 0; i < listCustomer.length; i++) {
+            temp += i + "." + "Name:" + listCustomer[i].getName() + " " + "\n"
+                + "Chứng Minh Nhân Dân:" + listCustomer[i].getCmnd() + " " + "\n"
+                + "Birthday:" + listCustomer[i].getBirthday() + " " + "\n"
+                + "Email:" + listCustomer[i].getEmail() + " " + "\n"
+                + "Address:" + listCustomer[i].getAddress() + " " + "\n"
+                + "TypeSevice:" + listCustomer[i].getTypeService() + " " + "\n"
+                + "Type Room:" + listCustomer[i].getTypeRoom() + " " + "\n"
+                + "Type Customer:" + listCustomer[i].getTypeCustomer() + " " + "\n"
+                + "Discount:" + listCustomer[i].getDiscount() + " " + "\n"
+                + "quantilyInclude:" + listCustomer[i].getQuanlityInclude() + " " + "\n"
+                + "Rendays:" + listCustomer[i].getRentDays() + "\n"
+        }
+        alert(temp);
+    }
+
+    function displayTotalPays() {
+        let temp = "";
+        for (let i = 0; i < listCustomer.length; i++) {
+            temp += i + "Name" + listCustomer[i].getName() + "\n" + "Cmnd" + listCustomer[i].getCmnd();
+        }
+        let chooseDisplay = parseInt(prompt(temp));
+        alert("Total Pays cua ban la:" + listCustomer[chooseDisplay].totalPays());
+    }
+
+    function editCustomer() {
+        let temp = "";
+        for (let i = 0; i < listCustomer.length; i++) {
+            temp += i + "." + listCustomer[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp, "Chọn vị trí cần chỉnh sửa"));
+        let chooseEdit = parseInt(prompt("Name:" + listCustomer[chooseDisplay].getName() + " " + "\n"
+            + "Chứng Minh Nhân Dân:" + listCustomer[chooseDisplay].getCmnd() + " " + "\n"
+            + "Birthday:" + listCustomer[chooseDisplay].getBirthday() + " " + "\n"
+            + "Email:" + listCustomer[chooseDisplay].getEmail() + " " + "\n"
+            + "Address:" + listCustomer[chooseDisplay].getAddress() + " " + "\n"
+            + "TypeSevice:" + listCustomer[chooseDisplay].getTypeService() + " " + "\n"
+            + "Type Room:" + listCustomer[chooseDisplay].getTypeRoom() + " " + "\n"
+            + "Type Customer:" + listCustomer[chooseDisplay].getTypeCustomer() + " " + "\n"
+            + "Discount:" + listCustomer[chooseDisplay].getDiscount() + " " + "\n"
+            + "quantilyInclude:" + listCustomer[chooseDisplay].getQuanlityInclude() + " " + "\n"
+            + "Rendays:" + listCustomer[chooseDisplay].getRentDays() + "\n", " 1->11 để edit"));
+        switch (chooseEdit) {
+            case 1: {
+                listCustomer[chooseDisplay].setName(prompt("name", listCustomer[chooseDisplay].getName()));
+                break;
+            }
+            case 2: {
+                listCustomer[chooseDisplay].setCmnd(prompt("Cmnd", listCustomer[chooseDisplay].getCmnd()));
+                break;
+            }
+            case 3: {
+                listCustomer[chooseDisplay].setBirthDay(prompt("Birth day", listCustomer[chooseDisplay].getBirthday()));
+                break;
+            }
+            case 4: {
+                listCustomer[chooseDisplay].setEmail(prompt("Email", listCustomer[chooseDisplay].getEmail()));
+                break;
+            }
+            case 5: {
+                listCustomer[chooseDisplay].setAddress(prompt("Address", listCustomer[chooseDisplay].getAddress()));
+                break;
+            }
+            case 6: {
+                listCustomer[chooseDisplay].setTypeService(prompt("Type Service"), listCustomer[chooseDisplay].getTypeService());
+                break;
+            }
+            case 7: {
+                listCustomer[chooseDisplay].setTypeRoom(prompt("Type Room", listCustomer[chooseDisplay].getTypeRoom()));
+                break;
+            }
+            case 8: {
+                listCustomer[chooseDisplay].setTypeCustomer(prompt("Type Customer"), listCustomer[chooseDisplay].getTypeCustomer());
+                break;
+            }
+            case 9: {
+                listCustomer[chooseDisplay].setDiscount(prompt("Discount", listCustomer[chooseDisplay].getDiscount()));
+                break;
+            }
+            case 10: {
+                listCustomer[chooseDisplay].setQuanlityInclude(prompt("QuanlityInclude", listCustomer[chooseDisplay].getQuanlityInclude()));
+                break;
+            }
+            case 11: {
+                listCustomer[chooseDisplay].setRentDays(prompt("Rendays", listCustomer[chooseDisplay].getRentDays()));
+                break;
+            }
+            default: {
+                alert("Faile");
+            }
+        }
+    }
+
+    function Remove() {
+        let temp = "";
+        for (let i = 0; i < listCustomer.length; i++) {
+            temp += i + "." + listCustomer[i].getName() + "\n";
+        }
+        let chooseDisplay = parseInt(prompt(temp, "Chọn Vị Trí Để Xóa"));
+        listCustomer.splice(chooseDisplay, 1);
+    }
+</script>
+</body>
+</html>

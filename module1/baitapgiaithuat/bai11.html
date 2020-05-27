@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai11</title>
+</head>
+<body>
+<script>
+        function inputArr(arr,n) {
+            for(let i=0;i<n;i++){
+                arr[i]=prompt("nhap vao phan tu thu "+i);
+            }
+            return arr;
+        }
+        function outputArr(arr) {
+            for(let i=0;i<arr.length;i++){
+               document.write(arr[i]+",");
+            }
+        }
+        function sumsoduongle(arr) {
+            let sum=0;
+            for (let i = 0; i <arr.length ; i++) {
+                if(arr[i]%2!==0)
+                {
+                    sum+=parseInt(arr[i]);
+                }
+            }
+            return sum;
+        }
+        function check(arr,k) {
+           let  checked=false;
+            for (let i = 0; i <arr.length ; i++) {
+                if(arr[i]===k)
+                {
+                    checked=true;
+                }
+            }
+            return checked;
+        }
+        function sort(arr) {
+            for (let i = 0; i <arr.length-1 ; i++) {
+                for(let j=i+1;j<arr.length;j++){
+                    if(arr[i]>arr[j])
+                    {
+                        let temp=arr[i];
+                        arr[i]=arr[j];
+                        arr[j]=temp;
+                    }
+                }
+            }
+            return arr;
+        }
+        function insertImplement(arr,index,p) {
+            for(let i=arr.length-1;i>= index;i--){
+                arr[i+1]=arr[i];
+            }
+            arr[index]=p;
+            return arr;
+        }
+        let n=prompt("nhap vao so luong phan tu mang");
+        let arr=new Array();
+        inputArr(arr,n);
+        outputArr(arr);
+        alert(sumsoduongle(arr));
+</script>
+</body>
+</html>

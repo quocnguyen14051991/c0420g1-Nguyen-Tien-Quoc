@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yêu cầu 3</title>
+</head>
+<body>
+<script>
+    //hàm indexof sẻ tìm kiếm 1 phần tử trong mảng dựa vào giá trị của phần tử hàm sẻ trả về vị trí của các phần tử nếu ko thấy thấy thì trả về -1
+    //array.indexOf(item, start) giá trị của phần tử cần tìm  và start vị trí nơi bắt đầu tìm. tìm từ đầu mảng trở đi
+    //hàm array.lastIndexOf(item, start) sẻ tìm vị trí của phần tử trong mảng dựa vào giá trị item là giá trị của phần tử cần tìm start là vị trí bắt đầu cần tìm
+    //tìm từ cuối mảng
+    //*Vậy trong javascript để tìm "vị trí của phần tử trong mảng" dựa vào giá trị thì dùng indexof và lastindexof
+    // Substring Phương thức sẽ trích xuất nội dung của một chuỗi
+    //string.toLowerCase() sẻ chuyển đổi từ in hoa thành in thường
+    //String.Uppercase() sẻ chuyển in thường thành in hoa
+    //string.trim() loại bỏ khoảng trắng ở đầu và cuối của chuổi
+    //string.split() sẽ phân tách một chuỗi thành một mảng dữ liệu dựa vào
+    // các kí tự phân cách trong chuỗi. Phương thức sẽ trả về một mảng mới.
+    //hàm Chartart để tìm giá trị theo index .charArt(i)="@"
+    // ----------------------------------------------------------
+    // alert( mang.join("*"));
+    // document.write(mang.reverse());
+    //  document.write(mang.valueOf("
+    //  mang.pop();xoas di phan tu o cuoi mang]
+    //mang.push() them phan tu vao cuoi mang
+    //  mang.shift(); // xoas phan tu dau tien cua mang
+    // mang.unshift(6); // them 1 phan tu vao dau mang
+    //slice(start,end) lay phan tu trong mang ,end+1 thi ms lay dc
+    // vi end bat dau tu 1
+    let name;
+    let cmnd;
+    let birthday;
+    let email;
+    let address;
+    let typeSevice;
+    let typeroom;
+    let typeCustomer;
+    let discount;
+    let quantityIncluded;
+    let renDays;
+    let totalPay;
+    let at;
+    let dot;
+    let space;
+    let check = false;
+    let tempname = "";
+    name = prompt("Input name:");
+    name = name.trim().toLowerCase(); // loại bỏ khoảng trắng thừa 2 bên
+    for (let i = 0; i < name.length; i++) {
+        // loại bỏ khoảng trắng thừa ở giửa
+        if (name.charAt(i) === " " && name.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || name.charAt(i - 1) === " ") {
+            tempname += name.charAt(i).toUpperCase();
+            continue;
+        }
+
+        tempname = tempname + name.charAt(i);
+    }
+    name = tempname;
+
+    let tempaddres = " ";
+    address = prompt("Input type address");
+    address = address.trim().toLowerCase();
+    for (let i = 0; i < address.length; i++) {
+        //nếu 2 ký tự liên tiếp là khoảng trắng thì
+        if (address.charAt(i) === " " && address.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || address.charAt(i - 1) === " ") {
+            tempaddres += address.charAt(i).toUpperCase();
+            continue;
+        }
+        tempaddres += address.charAt(i);
+    }
+    address = tempaddres;
+
+    let tempcustomer = " ";
+    typeCustomer = address.trim().toLowerCase();
+    for (let i = 0; i < typeCustomer.length; i++) {
+        //nếu 2 ký tự liên tiếp là khoảng trắng thì
+        if (typeCustomer.charAt(i) === " " && typeCustomer.charAt(i + 1) === " ") {
+            continue;
+        }
+        if (i === 0 || typeCustomer.charAt(i - 1) === " ") {
+            tempcustomer += typeCustomer.charAt(i).toUpperCase();
+            continue;
+        }
+        tempcustomer += typeCustomer.charAt(i);
+    }
+    typeCustomer = tempcustomer;
+    typeSevice = prompt("Input type Sevice");
+    typeroom = prompt("Input Type Room");
+
+
+    do {
+        email = prompt("Input email");
+        at = email.indexOf("@");
+        // email hợp lệ là phải có ký tự @ và dấu . và ký tự @ ko nằm ở vị trí đầu tiên
+        //email phải có ít nhất 1 ký tự giửa @ và dấu . cuối cùng
+        // phải có ít nhất 1 ký tự sau dấu . cuối cùng
+        //ko có khoảng trắng trong email
+        // tìm index của ký tự @ trong input email
+        dot = email.lastIndexOf(".");
+        // tìm index của ký tự . trong input email
+        space = email.indexOf(" ");
+        //tìm index của ký tự rổng trong chuổi input email
+        if (at != -1 && at != 0 && dot != -1 && dot > at + 1 && dot < email.length - 1 && space == -1) {
+            // alert("chào quý khách")
+            break;
+        } else {
+            alert("nhập lại email : email phải có dạng xxx@xxx.com");
+        }
+
+    } while (true);
+    do {
+        cmnd = prompt("Nhập id");
+        if (!isNaN(cmnd)) {
+            cmnd = Number.parseFloat(cmnd);
+        }
+        if (!Number.isInteger(cmnd)) {
+            alert("không phải là số nguyên");
+            continue;
+        }
+        if (cmnd < 10000000 || cmnd > 99999999) {
+            alert("cmnd ko đúng định dạng");
+            continue;
+        }
+        check = true;
+
+    } while (!check);
+    check = false;
+    do {
+
+        birthday = prompt("input birthday");
+        if (birthday.charAt(2) === "/" && birthday.charAt(5) === "/") {
+            let day = birthday.substring(0, 2);
+            let month = birthday.substring(3, 5);
+            let year = birthday.substring(6, 10);
+            if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
+                day = Number.parseFloat(day);
+                month = Number.parseFloat(month);
+                year = Number.parseFloat(year);
+                if (Number.isInteger(day) && Number.isInteger(month) && Number.isInteger(year)) {
+                    if ((day < 32 && day > 0) && (month < 13 && month > 0) && year > 1900) {
+                        check = true;
+                    }
+                }
+            }
+
+        }
+        if (check == false) {
+            alert("ngày sinh ko đúng định dạng")
+        }
+    }
+    while (!check);
+
+    check = false;
+    do {
+        renDays = prompt("input rendays");
+        if (!isNaN(renDays)) {
+            renDays = Number.parseFloat(renDays);
+            if (Number.isInteger(renDays) && renDays > 0) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("nhập lại rendays");
+        }
+    }
+    while (!check);
+
+    check = false;
+    do {
+        discount = prompt("input discount");
+        if (!isNaN(discount)) {
+            discount = Number.parseFloat(discount);
+            if (Number.isInteger(discount)) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("nhập lại discount");
+        }
+    }
+    while (!check);
+
+    check = false;
+    do {
+        quantityIncluded = prompt("input  quantityIncluded");
+        if (!isNaN(quantityIncluded)) {
+            quantityIncluded = Number.parseFloat(quantityIncluded);
+            if (Number.isInteger(quantityIncluded)) {
+                check = true;
+            }
+        }
+        if (!check) {
+            alert("nhập lại quantityIncluded");
+        }
+    }
+    while (!check);
+
+    totalPay = 300 * renDays * (1 - (discount / 100));
+    alert("Name" + name + " " + "So Cmnd" + " " + cmnd + "Total Pay" + " " + totalPay);
+
+</script>
+</body>
+</html>

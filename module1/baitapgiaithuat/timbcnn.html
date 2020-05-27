@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>timbcnn</title>
+</head>
+<body>
+<script>
+   function ucln(a,b) {
+       while (a*b!==0){
+           if(a>b){
+               a=a-b;
+           }else {
+               b=b-a;
+           }
+       }
+       return parseInt(a)+parseInt(b)
+   }
+   let a,b;
+   a=Math.abs(parseInt(prompt("nhap vao a")));
+   b=Math.abs(parseInt(prompt("nhap vao b")));
+   ucln(a,b);
+   let bcnnab=(a*b)/ucln(a,b);
+   alert(bcnnab)
+</script>
+</body>
+</html>

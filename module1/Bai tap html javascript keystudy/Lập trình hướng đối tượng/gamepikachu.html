@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gampikachu</title>
+</head>
+<body>
+<canvas id="mycanvas" style="border: 1px solid blue" width="1368" height="800"> </canvas>
+
+<script>
+let c=document.getElementById('mycanvas'),ctx=c.getContext("2d");
+let hero1,hero2;
+let baseimg1=new Image();
+baseimg1.src="hinhanh.jpg";
+window.onload=function () {
+    hero1=new Hero(400,400,100,100);
+    hero2=new Hero(200,200,50,50);
+    setInterval("update()",80);
+};
+class Hero {
+    constructor(x, y, width, height) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.dx = -5;
+        this.dy = -5;
+    }
+    drawHero(base_img) {
+        ctx.beginPath();
+        ctx.drawImage(base_img, this.x, this.y, this.width, this.height);
+        ctx.closePath();
+    }
+    moveHero() {
+        this.x += this.dx;
+        // this.y += this.dy;
+    }
+}
+function update() {
+    ctx.clearRect(0,0,c.width,c.height);
+    hero1.drawHero(baseimg1);
+    hero1.moveHero();
+    hero2.drawHero(baseimg1);
+    hero2.moveHero();
+}
+   </script>
+</body>
+</html>

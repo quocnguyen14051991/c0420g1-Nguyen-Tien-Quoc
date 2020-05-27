@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuoi</title>
+</head>
+<body>
+<script>
+    function swap(arr) {
+        let max=Math.max(...arr);
+        let min=Math.min(...arr);
+        let sum=0;
+        for(let i=0;i<arr.length;i++){
+            sum+=arr[i];
+        }
+        let avg=sum/arr.length;
+        let arrnew=[];
+        arrnew.push(max);
+        arrnew.push(min);
+        arrnew.push(avg);
+        return arrnew;
+    }
+    arr=[1,3,5,7];
+    let k=swap(arr)
+    alert(k);
+</script>
+</body>
+</html>

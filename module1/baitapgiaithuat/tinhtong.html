@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinhtong</title>
+</head>
+<body>
+<script>
+    function tinhtong(n) {
+        let sum=0;
+        for(let i=1;i<=n;i++){
+            sum+=1/i;
+        }
+        return sum;
+    }
+   let n=prompt("nhap vao n");
+    let tong=tinhtong(n);
+    alert(tong);
+</script>
+</body>
+</html>

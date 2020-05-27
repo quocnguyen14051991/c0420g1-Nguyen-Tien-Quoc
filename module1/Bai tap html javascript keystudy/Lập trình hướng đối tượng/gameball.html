@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cnva</title>
+</head>
+<body >
+<h1 style="text-align: center;color: #58257b" >Game Bựa </h1>
+<img src="troll.jpg" >
+<canvas id="mycanvas" width="500px" height="500px" style="border: 1px solid red"> </canvas>
+<embed with="0" height="0" src="nhac.mp3" autostart="true" loop="true">
+<script>
+        let c,ctx,ball1,thanhchan1,gameover=false;
+        c = document.getElementById("mycanvas");
+        ctx = c.getContext("2d");
+        window.onload=function () {
+            ball1= new Ball(250,20,20);
+            thanhchan1=new thanhchan(70,10,0.1);
+            setInterval("update()",30);
+        };
+        function update() {
+            if(!gameover) // nếu game chưa kết thúc
+            {
+                ctx.clearRect(0,0,c.width,c.height);
+                ball1.drawball();
+                ball1.moveball();
+                ball1.checkvacham();
+                thanhchan1.vethanhchan();
+                xulysukienthanhchan();
+                xulyvachamball_thanhchan();
+                if(ball1.y+ball1.radius>=c.height)
+                {
+                    document.write("<img src=\"troll2.jpg\" >"+"<h1>Óc Quá</h1>" + "hahaha" +"<br>")
+                }
+
+            }
+            else // nếu game đã kết thúc r
+            {
+                alert("Game OVer")
+            }
+
+            // thanhchan1.xulysukienthanhchan();
+        }
+        class Ball
+        {
+            constructor(x,y,radius) {
+            this.x=x;
+            this.y=y;
+            this.radius=radius;
+            this.dx=5;
+            this.dy=5;
+            }
+            drawball()
+        {
+            ctx.beginPath();
+            ctx.arc(this.x,this.y,this.radius,0,2*Math.PI);
+            ctx.fillStyle="red";
+            ctx.fill();
+            ctx.closePath();
+        }
+        moveball()
+        {
+            this.x+=this.dx;
+            this.y+=this.dy;
+        }
+        checkvacham()
+        {
+            if(this.x+this.radius>=c.width||this.x<=this.radius)
+            {
+                this.dx=-this.dx;
+            }
+            if(this.y<this.radius)
+            {
+                this.dy=-this.dy;
+            }
+        }
+        }
+        class thanhchan
+        {
+            constructor(width,height,speed) {
+                this.width=width;
+                this.height=height;
+                this.x=0;
+                this.y=c.height-this.height;
+                this.speed=speed;
+            }
+            vethanhchan()
+            {
+                ctx.beginPath();
+                ctx.rect(this.x,this.y,this.width,this.height);
+                ctx.fillStyle="blue";
+                ctx.fill();
+                ctx.closePath();
+            }
+
+    }
+        function xulysukienthanhchan() {
+            if(thanhchan1.x<=0)
+            {
+                thanhchan1.x=0;
+            }
+            else if(thanhchan1.x>c.width-thanhchan1.width) // neeus chieu rong cua canvas-chieurong cua thanh chan thi gan toa do x cua thanh chan =
+            {
+                thanhchan1.x=c.width-thanhchan1.width;
+            }
+            document.addEventListener("keydown", function (event) {
+                if (event.keyCode === 37) // mui ten sang trai
+                {
+                    thanhchan1.x -= thanhchan1.speed;// giam 1 quang vs speed
+
+                } else if (event.keyCode === 39)// mui sang phai
+                {
+                    thanhchan1.x += thanhchan1.speed;
+                }
+            });
+        }
+        function xulyvachamball_thanhchan() {
+            if(((ball1.x)+(ball1.radius)>=(thanhchan1.x))&&(ball1.x+ball1.radius)<=(thanhchan1.x+thanhchan1.width)&&
+           ( ball1.y+ball1.radius>=c.height-thanhchan1.height))
+            {
+                ball1.dy=-1*ball1.dy;
+                console.log(ball1.dy);
+            }
+        }
+</script>
+</body>
+</html>

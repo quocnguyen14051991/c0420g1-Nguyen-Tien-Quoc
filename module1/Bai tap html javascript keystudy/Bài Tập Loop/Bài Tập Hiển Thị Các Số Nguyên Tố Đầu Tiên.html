@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển Thị Các Số Nguyên Tố Đầu Tiên</title>
+</head>
+<body>
+<script>
+    let number;
+    number=parseInt(prompt("Nhập số để lưu số lượng số nguyên tố cần in ra"));
+    //biến count để đếm số lượng số nguyên tố cần in ra bằng number hay chưa
+    let count=0;
+    // biến N để kiểm tra xem các giá trị nó nhận có phải là số nguyên tố hay ko,mỗi lần lặp giá trị của biến sẻ tăng lên 1
+    let N=1;
+    while (count<number)
+    {
+            let kiemtra=0;
+            for(let i=1;i<=N;i++)
+            {
+                if(N%i == 0)
+                {
+                    kiemtra++;
+                }
+            }
+            if(kiemtra==2)
+            {
+               alert("so nguyen to la:" +N);
+                count++;
+            }
+        N++;
+    }
+</script>
+</body>
+</html>
