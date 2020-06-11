@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bài Tập Bài 1/Bài Tập Bài 1.iml" filepath="$PROJECT_DIR$/Bài Tập Bài 1/Bài Tập Bài 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bài Tập Bài 1/Bài Tập Hiển Thị Lời Chào Java.iml" filepath="$PROJECT_DIR$/Bài Tập Bài 1/Bài Tập Hiển Thị Lời Chào Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KiemTraNamNhuan/KiemTraNamNhuan.iml" filepath="$PROJECT_DIR$/KiemTraNamNhuan/KiemTraNamNhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thuc Hanh Chi So Can Nang/Thuc Hanh Chi So Can Nang.iml" filepath="$PROJECT_DIR$/Thuc Hanh Chi So Can Nang/Thuc Hanh Chi So Can Nang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module 2.iml" filepath="$PROJECT_DIR$/module 2.iml" />
+    </modules>
+  </component>
+</project>
