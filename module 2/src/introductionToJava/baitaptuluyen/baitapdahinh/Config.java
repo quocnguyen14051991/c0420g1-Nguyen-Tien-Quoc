@@ -1,0 +1,11 @@
+package introductionToJava.baitaptuluyen.baitapdahinh;
+
+public interface Config {
+    int NHANVIENSEP=1;
+    int NHANVIENLINH=2;
+    long LUONGNHANVIENFULLTIMESEP=20000000;
+    long LUONGNHANVIENFULLTIMELINH=10000000;
+    long LUONGNHANVIENLAMTHEMMOINGAY=800000;
+    long LUONGNHANVIENPARTIMEMOIGIO=100000;
+
+}
