@@ -1,6 +1,9 @@
 package introductionToJava.linked;
 
+import introductionToJava.installlinkedliststudent.Student;
+
 public class Note<E> {
+    Student student;
     E element;
     Note<E> next;
 
