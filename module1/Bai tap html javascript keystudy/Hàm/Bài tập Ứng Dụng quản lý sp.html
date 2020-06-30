@@ -14,7 +14,6 @@
 
     let arrsp = ["Nokia", "Xsony", "Iphone"];
     hienThiSpham();
-
     function hienThiSpham() {
         let strtable = "<table border=\"1\" width=\"100%\">\n" +
             "    <th colspan=\"3\"> Product Name</th>\n"
@@ -28,7 +27,6 @@
         strtable += "</table>"
         document.getElementById('hienthi').innerHTML = strtable;
     }
-
     function themsp() {
         let value = document.getElementById('text').value;
         if (value.trim().length === 0) {
@@ -38,7 +36,6 @@
             hienThiSpham();
         }
     }
-
     function suaSp(i) {
         let sp = prompt("nhập tên để sửa");
         if (sp == "" || sp == null) {
@@ -47,15 +44,11 @@
             arrsp[i] = sp;
             hienThiSpham();
         }
-
     }
-
     function xoasp(i) {
         arrsp.splice(i, 1);
         hienThiSpham();
-
     }
-
 </script>
 </body>
 </html>

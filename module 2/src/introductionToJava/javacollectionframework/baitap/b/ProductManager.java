@@ -39,7 +39,6 @@ public class ProductManager<E> {
                 break;
             }
         }
-
     }
 
     public void show(List<Produce> list) {

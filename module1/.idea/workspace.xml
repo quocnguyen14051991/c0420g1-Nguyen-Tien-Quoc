@@ -2,199 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3778aac3-b079-4338-998e-0760c28e34d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Baitapkeystudy/Baitapkeystudy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Baitapkeystudy/yeucau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện Tập Mảng 2/Bài6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 5 đếm số nguyên âm của chuổi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/Bài6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Luyện tập mảng 1/bài8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/Tìm Giá Trị Trong Mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/Tìm Giá trị lớn nhất trong mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/Tạo Và Thao Tác Với Mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/bàn cờ cờ rô zê rô.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/sss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/thuchanh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/Thực Hành Thao tác với mảng/Đảo ngược các phần tử trong mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/bài tập/Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/bài tập/[Bài tập] Tic tac toe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Mảng/bài tập/Ứng dụng vui Faking Textarea on Typing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/Bài1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/Bài4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/Bài5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/Bài6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/bài2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài tập cấu trúc điều kiện1/bài3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/Game_Puzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/GoodCheapseat/GoodFastcheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Bài tập Ứng Dụng quản lý sp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Chuyển đổi feet và meeter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Hàmkiemtrasonguyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/Bài8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Luyện tập tạo và sử dụng hàm 02/bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Thực hành/Tìm giá trị nhỏ nhất của mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Thực hành/Tạo hàm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Thực hành/[Thực hành] Chuyển đổi nhiệt độAssignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/[Bài tập] Luyện tập tạo và sử dụng hàm 01Assignment/Baì3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/[Bài tập] Luyện tập tạo và sử dụng hàm 01Assignment/Bài1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/[Bài tập] Luyện tập tạo và sử dụng hàm 01Assignment/Bài2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/[Bài tập] Luyện tập tạo và sử dụng hàm 01Assignment/Bài4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/[Bài tập] Luyện tập tạo và sử dụng hàm 01Assignment/Bài5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/kiểm tra tính đối xứng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/Bài tập Xây dựng lớp mô tả hình chử nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/Phát triển game lái xe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/adamchieva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/anhxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/bongdencongtac.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/dienthoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/gameball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/gamepikachu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/hinhanh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/meoandchuot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/mèoduoichuot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/nhac.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/pic_bulboff.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/pic_bulbon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thuyeungiet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/Vẽ Trên Canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/[Thực hành] Funny circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/denvapin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/ss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/thực hành xây dựng lớp date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/thực hành/xây dựng lớp hình tròn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/troll.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng/troll2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Thuc hành vòng lặp for bài 2/thuchanhvonglapforbai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Thực Hành do-while/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Thực Hành vòng Lặp for Lồng Nhau/bài1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Thực hành sử dụng vòng lặp while/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Thực hành sử dụng vòng lặp while/thuchanhsudungvonglapwhilebai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/Tinhsongaytrong1thang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/bangmaytinh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/changehinh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/chanhtran.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/chuongtrinhtinhchiso.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/gamepuzzlllee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/helloquit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/htmls.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/ibm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/sss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/tinhsongaytrong1thang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/bài tập cấu trúc điều kiện 2/bài6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/doloveme/doloveme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/doloveme/doyouloveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/maytinhdongian/maytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/thuchanhvonglapfor/thuchanhvonglapfor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/module 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/Baitaptuluyen/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/LopVaDoiTuong/ThucHanhVaBaiTap/Baitap/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/LopVaDoiTuong/ThucHanhVaBaiTap/Baitap/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/LopVaDoiTuong/ThucHanhVaBaiTap/Baitap/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/LopVaDoiTuong/ThucHanhVaBaiTap/ThucHanh/LopHinhChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/accessmodifier/ThucHah/AccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/accessmodifier/ThucHah/StaticMethod/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/accessmodifier/ThucHah/thuchanhstaticmethod/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/accessmodifier/baitap/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/DemSoLanXuatHienCuaKiTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/DocChuThanhSo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/GopMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/Helo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/HienThi20SoNguyenToDauTien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/HienThiCacLoaiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/HienThiCacSoNguyenToNhoHon100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/MineSweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/SystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/ThemPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/TimGiaTriNhoNhatTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/TimMaxMaTrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/TinhTongCacSoOMotCotXacDinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/TinhTongCacSoOduongCheoChinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/UngDungDemSoLuongSinhVienThiDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/baiTap/XoaPhanTuKhoiMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/TestProtected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lop2d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lop2d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lop2d/TestPoin2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lopcirclevalopcylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lopcirclevalopcylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/lopcirclevalopcylinder/TestCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/poinvamove/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/poinvamove/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/poinvamove/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/triangle/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/triangle/TestTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuabaitap/triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuathuchanh/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuathuchanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuathuchanh/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuathuchanh/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/kethuathuchanh/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/CheckYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/CheckYearLeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/ChuongTrinhChuyenDoiNhietDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/DaoNguocCacPhanTuCuaMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/Ibm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/KhaiBao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/RectangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/ThietKeMenuUngDung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/ThucHanhArr1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/TimGiaTriTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/TimMaxTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/TimMinInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/TimUocChungLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/UngDungTinhTienLauChoVay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module 2/src/introductionToJava/thucHanh/ptbacnhat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baitapkeystudy/Bài Tập Key_Study/Baitapkeystudy.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../baitapkeystudy/Bài Tập Key_Study/yeucau2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/Baitapkeystudy/Baitapkeystudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Baitapkeystudy/Yeucau5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/Baitapkeystudy/yeucau2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Baitapkeystudy/yêu cầu 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/Gamepuzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Baitapkeystudy/yêu cầu 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/Tinhsongaytrong1thang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Luyện Tập Vòng Lặp 2/Bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/baitapbien_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/baitapbien_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/baitapthuchanhbien3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/baitapthuchanhbien3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/bangmaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Luyện Tập Vòng Lặp 2/Bài5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/changehinh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/chuongtrinhtinhchiso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Luyện Tập Vòng Lặp 2/Bài_1_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/dientichhinhtron.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/dientichhinhtron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/docsangf.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/docsangf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/doitien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/doitien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Luyện Tập Vòng Lặp 2/bài 3 _ những ngôi sao trong đêm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/gamepuzzlllee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Luyện Tập Vòng Lặp 2/bài4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/htmls.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Tập Hiển Thị Các Số Nguyên Tố Đầu Tiên.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/ibm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/maytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/maytinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part1x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/cat0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part1x2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/monkey0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part1x3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/panda0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part2x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/cat1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part2x2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/monkey1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part2x3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/panda1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part3x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/cat2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part3x2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/monkey2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part3x3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/panda2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part4x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/cat3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part4x2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/monkey3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part4x3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/panda3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part5x1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/cat4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part5x2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/monkey4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/part5x3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Game_Puzz/image/panda4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/sss.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Bài Tập In Bảng Cửu Chương.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/thuchanhbien1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/thuchanhbien1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/thuchanhbien_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/thuchanhbien_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/thuchanhbien_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/baitapjavascript/thuchanhbien_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/baitapjavascript/tinhsongaytrong1thang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/noidung.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/sss.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/aaa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/nhapdaymontyeartimngaykengayvuanhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/nhapngaythangnamtinhsongaytrongthang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Bài Tập Loop/Luyện Tập Vòng Lặp 01/Bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/tinhsongaytrongthang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai tap html/tinhtoan/tinhtoan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài Tập Key_Study/Baitapkeystudy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài Tập Key_Study/yeucau2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tạo một form tìm kiếm Google.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tạo một form tìm kiếm Google.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai tap kanban/ffff.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai tap kanban/ffff.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap1.js" beforeDir="false" afterPath="$PROJECT_DIR$/baitap1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hinhanh/google.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hinhanh/hinh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_table/inner.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_table/inner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/bai02.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/bai02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/javasript.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/javasript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/jjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/jjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/ngamcuu.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/anhienform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/promot.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/promot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/tesst.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/tesst.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/timmax.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/timmax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/timsomax2so.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/timsomax2so.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/timtong.html" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/timtong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_script/timtong.js" beforeDir="false" afterPath="$PROJECT_DIR$/java_script/timtong.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quoc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Bài tập Ứng Dụng quản lý sp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap html javascript keystudy/Hàm/Bài tập Ứng Dụng quản lý sp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitapgiaithuat/xu ly chuổi thành mảng bài 10.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitapgiaithuat/xu ly chuổi thành mảng bài 10.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +105,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Bai tap html javascript keystudy/Lập trình hướng đối tượng" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -363,6 +241,9 @@
       <workItem from="1590221852333" duration="670000" />
       <workItem from="1590223820626" duration="10494000" />
       <workItem from="1590236501538" duration="10211000" />
+      <workItem from="1591116234490" duration="646000" />
+      <workItem from="1591367272238" duration="596000" />
+      <workItem from="1591749207528" duration="179000" />
     </task>
     <servers />
   </component>
